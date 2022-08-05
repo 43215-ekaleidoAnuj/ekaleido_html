@@ -170,7 +170,7 @@
 	color: white;
 	height: 200vh;
 	width: 100%;
-	position: relative;
+
 	background: black;
 
 	display: flex;
@@ -180,7 +180,7 @@
 }
 
 .vector_div {
-	position: relative;
+	/* position: relative;
 	width: 50vw;
 	height: 59%;
 	margin: auto;
@@ -188,15 +188,16 @@
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform:  translate(-47%, -54%);
+	transform:  translate(-47%, -54%); */
+	transition: all 0.5s ease; 
 }
 
 .vector_div img {
-	object-fit: contain;
+	/* object-fit: contain;
 	width: 100%;
 	height: 100%;
-	transform:scale(0.1);
-	transition: all 0.5s ease;
+	transform:scale(0.1);*/
+	transition: all 0.5s ease; 
 }
 
 .tum_stars {
@@ -1032,5 +1033,5 @@
 
 
 .fade-in{
-	transform: scale(1px);
+	transform: scale(0.7)!important;
 }

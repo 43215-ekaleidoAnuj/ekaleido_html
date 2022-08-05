@@ -188,13 +188,15 @@
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-47%, -54%);
+	transform:  translate(-47%, -54%);
 }
 
 .vector_div img {
 	object-fit: contain;
 	width: 100%;
 	height: 100%;
+	transform:scale(0.1);
+	transition: all 0.5s ease;
 }
 
 .tum_stars {
@@ -1021,4 +1023,14 @@
 	to {
 		opacity: 0.8;
 	}
+}
+
+
+
+
+
+
+
+.fade-in{
+	transform: scale(1px);
 }

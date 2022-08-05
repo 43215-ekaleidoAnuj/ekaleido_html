@@ -9,12 +9,6 @@ function generateStars() {
     
 }
 
-
-
-
-
-
 setInterval(()=>{
-
     generateStars()
 },1000)

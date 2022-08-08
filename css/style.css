@@ -3,6 +3,11 @@
 	margin: 0;
 }
 
+@font-face {
+	font-family: "GothamBoldItalic";
+	src: local("GothamBoldItalic"), url(../assets/Gotham-Font/GothamBoldItalic.ttf)
+}
+
 .landing_page {
 	width: 100%;
 	height: 100%;
@@ -187,7 +192,7 @@
 	color: white;
 	height: 200vh;
 	width: 100%;
-	position: relative;
+
 	background: black;
 
 	display: flex;
@@ -197,7 +202,7 @@
 }
 
 .vector_div {
-	position: relative;
+	/* position: relative;
 	width: 50vw;
 	height: 59%;
 	margin: auto;
@@ -205,13 +210,16 @@
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	transform: translate(-47%, -54%);
+	transform:  translate(-47%, -54%); */
+	transition: all 0.5s ease; 
 }
 
 .vector_div img {
-	object-fit: contain;
+	/* object-fit: contain;
 	width: 100%;
 	height: 100%;
+	transform:scale(0.1);*/
+	transition: all 0.5s ease; 
 }
 
 .tum_stars {
@@ -273,6 +281,7 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
+	z-index: 4;
 }
 
 .content_image_div {
@@ -432,7 +441,7 @@
 	font-size: 80px;
 	position: absolute;
 	bottom: -123px;
-
+    font-family: "GothamBoldItalic";
 	margin: 0;
 	text-align: center;
 	right: 0;
@@ -506,6 +515,7 @@
 	padding-top: 200px;
 	overflow: hidden;
 	position: relative;
+	z-index: 2;
 }
 
 .plane {
@@ -528,7 +538,9 @@
 .cloud_plane_section_2 {
 	position: absolute;
 	top: 0px;
-	right: -118px;
+	
+    right: -17%;
+
 	width: 30%;
 	height: 17%;
 }
@@ -538,13 +550,13 @@
 	position: absolute;
 	width: 46%;
 	height: 47%;
-	right: -281px;
+	
+    right: -27%;
 
-	right: -281px;
 }
 
 .top_plane {
-	min-height: 130vh;
+	min-height: 84vh;
 	position: relative;
 	padding-top: 173px;
 
@@ -581,7 +593,7 @@
 .cloud_plane {
 	position: absolute;
 	top: 50%;
-	right: -148px;
+	right: -17%;
 	width: 36%;
 	height: 30%;
 }
@@ -752,6 +764,7 @@
 	font-family: GothamBoldItalic;
 	font-style: italic;
 	font-weight: bold;
+	color: #fff;
 }
 
 .para_plane {
@@ -764,6 +777,9 @@
 	font-size: 27px;
 	width: 73%;
 	margin: auto;
+	color: white;
+	font-family: GothamBoldItalic;
+
 }
 
 .para_plane p {
@@ -784,17 +800,18 @@
 	font-family: GothamBoldItalic;
 	font-style: italic;
 	font-weight: bold;
+	color: white;
 }
 
 .carousel_parashot {
-	width: 84%;
+	width: 100%;
 	margin: auto;
 	height: 53vh;
 }
 
 .carousel_lebel {
 	text-align: center;
-	padding-top: 50px;
+	
 	font-family: GothamFont;
 	font-style: italic;
 	font-weight: bold;
@@ -806,10 +823,12 @@
 
 #carousel {
 	position: relative;
-	height: 400px;
+	min-height: 587px;
 	top: 50%;
 	transform: translateY(-50%);
 	overflow: hidden;
+	display: flex;
+    justify-content: space-between;
 }
 #carousel div {
 	position: absolute;
@@ -841,6 +860,8 @@
 	z-index: 5;
 	left: 30%;
 	transform: translateY(50px) translateX(-50%);
+	width: 33%;
+	text-align:flex-start;
 }
 #carousel img:hover {
 	cursor: pointer;
@@ -861,11 +882,16 @@
 	z-index: 10;
 	left: 50%;
 	transform: translateY(0px) translateX(-50%);
+	width: 33%;
+	text-align:center;
 }
 #carousel div.next {
 	z-index: 5;
 	left: 70%;
 	transform: translateY(50px) translateX(-50%);
+	width: 33%;
+	text-align: end;
+
 }
 #carousel div.next img {
 	width: 300px;
@@ -885,4 +911,149 @@
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 10px;
+	display: none;
+}
+
+
+
+
+/* start animation */
+
+
+.shooting_stars {
+	top: 0;
+	left: 0;
+	width: 4px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+		0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
+	animation: shooting 6s linear infinite;
+	z-index: 100;
+}
+
+.shooting_stars::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 300px;
+	height: 1px;
+	background: linear-gradient(90deg, #fff, transparent);
+}
+
+#shooting_star_1 {
+	top: 0;
+	right: 100px;
+	left: initial;
+	animation-delay: 0;
+	animation-duration: 1s;
+}
+
+#shooting_star_2 {
+	top: 0;
+	right: -80px;
+	left: initial;
+	animation-delay: 0.2s;
+	animation-duration: 3s;
+}
+
+#shooting_star_3 {
+	top: 0px;
+	right: 200px;
+	left: initial;
+	animation-delay: 0.4s;
+	animation-duration: 2s;
+}
+
+#shooting_star_4 {
+	top: 0;
+	right: 0;
+	left: initial;
+	animation-delay: 0.6s;
+	animation-duration: 1.5s;
+}
+
+@keyframes shooting {
+	0% {
+		transform: rotate(315deg) translateX(0);
+		opacity: 1;
+	}
+	70% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(315deg) translateX(-2000px);
+		opacity: 0;
+	}
+}
+
+
+
+
+/*  floating  */
+
+
+.floating {
+	animation-name: floating;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+	0% {
+		transform: translate(0, 0px);
+	}
+	50% {
+		transform: translate(0, 15px);
+	}
+	100% {
+		transform: translate(0, -0px);
+	}
+}
+
+
+
+
+
+#star_0 {
+	animation: twinkle 1.5s ease-in-out infinite;
+	animation-direction: alternate-reverse;
+}
+
+#star_1 {
+	animation: twinkle 1s ease-in-out infinite;
+	animation-direction: alternate-reverse;
+}
+
+#star_2 {
+	animation: twinkle 2.5s ease-in-out infinite;
+	animation-direction: alternate-reverse;
+}
+
+#star_3 {
+	animation: twinkle 2s ease-in-out infinite;
+	animation-direction: alternate-reverse;
+}
+
+@keyframes twinkle {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.8;
+	}
+}
+
+
+
+
+
+
+
+.fade-in{
+	transform: scale(0.7)!important;
 }

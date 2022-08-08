@@ -213,7 +213,22 @@
 	transition: all 2s ease-in-out;
 }
 
-.animate_vector_div {
+.animate_vector_div_1 {
+	transform: translate(-50%, -50%) rotate(90deg) !important;
+	transition: all 1s ease-in-out;
+}
+
+.animate_vector_div_2 {
+	transform: translate(-50%, -50%) rotate(180deg) !important;
+	transition: all 1s ease-in-out;
+}
+
+.animate_vector_div_3 {
+	transform: translate(-50%, -50%) rotate(360deg) !important;
+	transition: all 1s ease-in-out;
+}
+
+.animate_vector_div_4 {
 	transform: translate(-50%, -50%) rotate(720deg) !important;
 	transition: all 1s ease-in-out;
 }

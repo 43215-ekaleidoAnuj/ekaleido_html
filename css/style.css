@@ -662,8 +662,11 @@
 	height: 30rem;
 	position: relative;
 	border-radius: 20px;
+	box-sizing: border-box;
 	background-color: #f2b7b5;
+    -moz-box-sizing: border-box;
 	border: 0.8rem solid #e86c8d;
+    -webkit-box-sizing: border-box;
 }
 
 .house {

@@ -25,6 +25,7 @@ $(document).ready(function () {
 		triggerHook: 0,
 	})
 		// .addIndicators()
+        .setClassToggle("#img_vector", "scalE")
 		.setPin(".third_sec")
 		.addTo(controller);
 });
@@ -32,8 +33,8 @@ $(document).ready(function () {
 $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
-		triggerElement: ".third_sec",
-		duration: 750,
+		triggerElement: ".scrollMagic_div1",
+		duration: 250,
 		triggerHook: 0.25,
 	})
 		.setClassToggle("#img_vector", "animate_vector_div_1")
@@ -44,9 +45,9 @@ $(document).ready(function () {
 $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
-		triggerElement: ".third_sec",
-		duration: 500,
-		triggerHook: 0.5,
+		triggerElement: ".scrollMagic_div2",
+		duration: 250,
+		triggerHook: 0.25,
 	})
 		.setClassToggle("#img_vector", "animate_vector_div_2")
 		.addIndicators()
@@ -56,50 +57,29 @@ $(document).ready(function () {
 $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
-		triggerElement: ".third_sec",
+		triggerElement: ".scrollMagic_div3",
 		duration: 250,
-		triggerHook: 0.75,
+		triggerHook: 0.25,
 	})
 		.setClassToggle("#img_vector", "animate_vector_div_3")
 		.addIndicators()
 		.addTo(controller);
 });
 
-// $(document).ready(function () {
-// 	var controller = new ScrollMagic.Controller();
-// 	var ourScene = new ScrollMagic.Scene({
-// 		triggerElement: ".third_sec",
-// 		duration: 500,
-// 		triggerHook: 0.5,
-// 	})
-// 		.setClassToggle("#img_vector", "animate_vector_div_2")
-// 		.addIndicators()
-// 		// .setPin(".third_sec")
-// 		.addTo(controller);
-// });
 
-// $(document).ready(function () {
-// 	var controller = new ScrollMagic.Controller();
-// 	var ourScene = new ScrollMagic.Scene({
-// 		triggerElement: ".third_sec",
-// 		duration: 750,
-// 		triggerHook: 0.7,
-// 	})
-// 		.setClassToggle("#img_vector", "animate_vector_div_3")
-// 		.addIndicators()
-// 		// .setPin(".third_sec")
-// 		.addTo(controller);
-// });
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+		triggerElement: ".scrollMagic_div4",
+		duration: 250,
+		triggerHook: 0.25,
+	})
+		.setClassToggle("#img_vector", "animate_vector_div_4")
+		.addIndicators()
+		.addTo(controller);
+});
 
-// $(document).ready(function () {
-// 	var controller = new ScrollMagic.Controller();
-// 	var ourScene = new ScrollMagic.Scene({
-// 		triggerElement: ".third_sec",
-// 		duration: 1000,
-// 		triggerHook: 0.9,
-// 	})
-// 		.setClassToggle("#img_vector", "animate_vector_div_4")
-// 		.addIndicators()
-// 		// .setPin(".third_sec")
-// 		.addTo(controller);
-// });
+
+
+
+

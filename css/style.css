@@ -5,8 +5,7 @@
 
 @font-face {
 	font-family: "GothamBoldItalic";
-	src: local("GothamBoldItalic"),
-		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
+	src: local("GothamBoldItalic"), url(../assets/Gotham-Font/GothamBoldItalic.ttf)
 }
 
 .landing_page {
@@ -17,27 +16,12 @@
 
 .arc_cut {
 	position: absolute;
-	left: 0%;
-	display: flex;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-	overflow: hidden;
-	/* transform: translateX(-50%); */
-	top: 0;
-}
-
-.arc_cut .arc_cut_image {
-	height: 60%;
-}
-
-.arc_cut_logo {
-	position: absolute;
 	left: 50%;
-	top: 50px;
+	height: 63%;
+	width: 29%;
+	overflow: hidden;
 	transform: translateX(-50%);
-	width: 266px;
-	height: 86px;
+	top: 0;
 }
 
 .front_cloud {
@@ -65,26 +49,19 @@
 
 .mobile {
 	position: absolute;
-	width: 33%;
-	height: 55%;
+	min-width: 32%;
+	min-height: 57%;
 	left: 14%;
-	top: 38%;
+	top: 23%;
 	overflow: hidden;
-}
-
-.mobile img,
-.angel img {
-	width: 100%;
-	height: 100%;
-	object-fit: contain;
 }
 
 .angel {
 	position: absolute;
-	width: 33%;
-	height: 44%;
-	left: 41%;
-	top: 49%;
+	width: 32%;
+	height: 57%;
+	left: 44%;
+	top: 40%;
 	overflow: hidden;
 }
 
@@ -96,7 +73,7 @@
 	overflow-x: hidden;
 }
 
-.header-logo {
+.logo {
 	position: absolute;
 	left: 50%;
 	transform: translateX(-50%);
@@ -165,10 +142,10 @@
 
 .ray1,
 .ray2 {
+	display: block;
 	left: 50%;
 	height: 0;
 	z-index: 5;
-	display: block;
 
 	position: absolute;
 	transform: translate(-50%, 100px);
@@ -186,52 +163,36 @@
 	border-left: 48vw solid transparent;
 	border-right: 48vw solid transparent;
 }
-
 /* third css */
 
 .third_sec {
-	width: 100%;
-	height: 140vh;
-	display: flex;
+	/* background-image: linear-gradient(0deg, black 65%, transparent);  */
 	color: white;
-	overflow: hidden;
+	height: 200vh;
+	width: 100%;
+
 	background: black;
+
+	display: flex;
 	align-items: center;
 	justify-content: center;
+	overflow-x: hidden;
 }
 
-/* updated CSS */
-
-#img_vector {
-	top: 50%;
-	left: 50%;
-	z-index: 5;
-	height: 50%;
+.vector_div {
+	/* position: relative;
+	width: 50vw;
+	height: 59%;
 	margin: auto;
-	transform: translate(-50%, -50%);
+	z-index: 5;
 	position: absolute;
-	transition: all 2s ease-in-out;
+	left: 50%;
+	top: 50%;
+	transform:  translate(-47%, -54%); */
+	transition: all 0.5s ease; 
 }
 
-.animate_vector_div_1 {
-	transform: translate(-50%, -50%) rotate(90deg) !important;
-	transition: all 1s ease-in-out;
-}
 
-.animate_vector_div_2 {
-	transform: translate(-50%, -50%) rotate(180deg) !important;
-	transition: all 1s ease-in-out;
-}
-
-.animate_vector_div_3 {
-	transform: translate(-50%, -50%) rotate(360deg) !important;
-	transition: all 1s ease-in-out;
-}
-
-.animate_vector_div_4 {
-	transform: translate(-50%, -50%) rotate(720deg) !important;
-	transition: all 1s ease-in-out;
-}
 
 .tum_stars {
 	z-index: 1;
@@ -254,21 +215,20 @@
 }
 
 .star_div_down {
-	left: 79px;
 	width: 255px;
-	bottom: 60px;
 	height: 255px;
 	position: absolute;
+	bottom: 60px;
+	left: 79px;
 }
 
 .star_div_half {
-	top: 0;
 	width: 11%;
-	right: 27px;
 	height: 11%;
 	position: absolute;
+	top: 0;
+	right: 27px;
 }
-
 /*  fourth css */
 
 .fourth_section {
@@ -319,7 +279,6 @@
 	left: 50%;
 	transform: translate(-50%, 124%);
 }
-
 .meteoroid img {
 	width: 89%;
 	height: 100%;
@@ -454,7 +413,7 @@
 	font-size: 80px;
 	position: absolute;
 	bottom: -123px;
-	font-family: "GothamBoldItalic";
+    font-family: "GothamBoldItalic";
 	margin: 0;
 	text-align: center;
 	right: 0;
@@ -551,8 +510,8 @@
 .cloud_plane_section_2 {
 	position: absolute;
 	top: 0px;
-
-	right: -17%;
+	
+    right: -17%;
 
 	width: 30%;
 	height: 17%;
@@ -563,8 +522,9 @@
 	position: absolute;
 	width: 46%;
 	height: 47%;
+	
+    right: -27%;
 
-	right: -27%;
 }
 
 .top_plane {
@@ -791,6 +751,7 @@
 	margin: auto;
 	color: white;
 	font-family: GothamBoldItalic;
+
 }
 
 .para_plane p {
@@ -822,7 +783,7 @@
 
 .carousel_lebel {
 	text-align: center;
-
+	
 	font-family: GothamFont;
 	font-style: italic;
 	font-weight: bold;
@@ -839,7 +800,7 @@
 	transform: translateY(-50%);
 	overflow: hidden;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 }
 #carousel div {
 	position: absolute;
@@ -872,7 +833,7 @@
 	left: 30%;
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
-	text-align: flex-start;
+	text-align:flex-start;
 }
 #carousel img:hover {
 	cursor: pointer;
@@ -894,7 +855,7 @@
 	left: 50%;
 	transform: translateY(0px) translateX(-50%);
 	width: 33%;
-	text-align: center;
+	text-align:center;
 }
 #carousel div.next {
 	z-index: 5;
@@ -902,6 +863,7 @@
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
 	text-align: end;
+
 }
 #carousel div.next img {
 	width: 300px;
@@ -924,7 +886,11 @@
 	display: none;
 }
 
+
+
+
 /* start animation */
+
 
 .shooting_stars {
 	top: 0;
@@ -997,7 +963,6 @@
 }
 
 /*  floating  */
-
 .floating {
 	animation-name: floating;
 	animation-duration: 3s;
@@ -1045,3 +1010,69 @@
 		opacity: 0.8;
 	}
 }
+
+#img_vector {
+	transition: all 0.5s ease;
+	width: 10%;
+}
+
+.animate_vector_div_1 {
+	transform: rotate(180deg);
+	
+}
+.animate_vector_div_2 {
+	transform: rotate(360deg);
+
+}
+.animate_vector_div_3 {
+	transform: rotate(540deg);
+	
+}
+.animate_vector_div_4 {
+	transform: rotate(720deg);
+
+}
+.scrollMagic_div1 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    width: 100%;
+    height: 250px;
+}
+
+
+.scrollMagic_div2 {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    width: 100%;
+	height: 250px;
+  
+}
+
+.scrollMagic_div3 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+	height: 250px;
+
+  
+}
+.scrollMagic_div4 {
+    position: absolute;
+    top: 75%;
+    left: 0;
+    width: 100%;
+    height: 250px; 
+}
+
+
+
+
+.scalE{
+	width: 50%!important;
+}
+
+
+

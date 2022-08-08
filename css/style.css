@@ -200,19 +200,22 @@
 	justify-content: center;
 }
 
+/* updated CSS */
+
 #img_vector {
 	top: 50%;
 	left: 50%;
 	z-index: 5;
 	height: 50%;
 	margin: auto;
-	position: absolute;
 	transform: translate(-50%, -50%);
-	transition: all 1s ease-in-out;
+	position: absolute;
+	transition: all 2s ease-in-out;
 }
 
 .animate_vector_div {
-	transform: rotate(720deg);
+	transform: translate(-50%, -50%) rotate(720deg) !important;
+	transition: all 1s ease-in-out;
 }
 
 .tum_stars {

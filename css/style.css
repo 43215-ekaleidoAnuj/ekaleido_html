@@ -5,7 +5,8 @@
 
 @font-face {
 	font-family: "GothamBoldItalic";
-	src: local("GothamBoldItalic"), url(../assets/Gotham-Font/GothamBoldItalic.ttf)
+	src: local("GothamBoldItalic"),
+		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
 }
 
 .landing_page {
@@ -164,10 +165,10 @@
 
 .ray1,
 .ray2 {
-	display: block;
 	left: 50%;
 	height: 0;
 	z-index: 5;
+	display: block;
 
 	position: absolute;
 	transform: translate(-50%, 100px);
@@ -185,41 +186,33 @@
 	border-left: 48vw solid transparent;
 	border-right: 48vw solid transparent;
 }
+
 /* third css */
 
 .third_sec {
-	/* background-image: linear-gradient(0deg, black 65%, transparent);  */
-	color: white;
-	height: 200vh;
 	width: 100%;
-
-	background: black;
-
+	height: 140vh;
 	display: flex;
+	color: white;
+	overflow: hidden;
+	background: black;
 	align-items: center;
 	justify-content: center;
-	overflow-x: hidden;
 }
 
-.vector_div {
-	/* position: relative;
-	width: 50vw;
-	height: 59%;
-	margin: auto;
-	z-index: 5;
-	position: absolute;
-	left: 50%;
+#img_vector {
 	top: 50%;
-	transform:  translate(-47%, -54%); */
-	transition: all 0.5s ease; 
+	left: 50%;
+	z-index: 5;
+	height: 50%;
+	margin: auto;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	transition: all 1s ease-in-out;
 }
 
-.vector_div img {
-	/* object-fit: contain;
-	width: 100%;
-	height: 100%;
-	transform:scale(0.1);*/
-	transition: all 0.5s ease; 
+.animate_vector_div {
+	transform: rotate(720deg);
 }
 
 .tum_stars {
@@ -243,20 +236,21 @@
 }
 
 .star_div_down {
+	left: 79px;
 	width: 255px;
+	bottom: 60px;
 	height: 255px;
 	position: absolute;
-	bottom: 60px;
-	left: 79px;
 }
 
 .star_div_half {
+	top: 0;
 	width: 11%;
+	right: 27px;
 	height: 11%;
 	position: absolute;
-	top: 0;
-	right: 27px;
 }
+
 /*  fourth css */
 
 .fourth_section {
@@ -307,6 +301,7 @@
 	left: 50%;
 	transform: translate(-50%, 124%);
 }
+
 .meteoroid img {
 	width: 89%;
 	height: 100%;
@@ -441,7 +436,7 @@
 	font-size: 80px;
 	position: absolute;
 	bottom: -123px;
-    font-family: "GothamBoldItalic";
+	font-family: "GothamBoldItalic";
 	margin: 0;
 	text-align: center;
 	right: 0;
@@ -538,8 +533,8 @@
 .cloud_plane_section_2 {
 	position: absolute;
 	top: 0px;
-	
-    right: -17%;
+
+	right: -17%;
 
 	width: 30%;
 	height: 17%;
@@ -550,9 +545,8 @@
 	position: absolute;
 	width: 46%;
 	height: 47%;
-	
-    right: -27%;
 
+	right: -27%;
 }
 
 .top_plane {
@@ -779,7 +773,6 @@
 	margin: auto;
 	color: white;
 	font-family: GothamBoldItalic;
-
 }
 
 .para_plane p {
@@ -811,7 +804,7 @@
 
 .carousel_lebel {
 	text-align: center;
-	
+
 	font-family: GothamFont;
 	font-style: italic;
 	font-weight: bold;
@@ -828,7 +821,7 @@
 	transform: translateY(-50%);
 	overflow: hidden;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 #carousel div {
 	position: absolute;
@@ -861,7 +854,7 @@
 	left: 30%;
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
-	text-align:flex-start;
+	text-align: flex-start;
 }
 #carousel img:hover {
 	cursor: pointer;
@@ -883,7 +876,7 @@
 	left: 50%;
 	transform: translateY(0px) translateX(-50%);
 	width: 33%;
-	text-align:center;
+	text-align: center;
 }
 #carousel div.next {
 	z-index: 5;
@@ -891,7 +884,6 @@
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
 	text-align: end;
-
 }
 #carousel div.next img {
 	width: 300px;
@@ -914,11 +906,7 @@
 	display: none;
 }
 
-
-
-
 /* start animation */
-
 
 .shooting_stars {
 	top: 0;
@@ -990,11 +978,7 @@
 	}
 }
 
-
-
-
 /*  floating  */
-
 
 .floating {
 	animation-name: floating;
@@ -1014,10 +998,6 @@
 		transform: translate(0, -0px);
 	}
 }
-
-
-
-
 
 #star_0 {
 	animation: twinkle 1.5s ease-in-out infinite;
@@ -1046,14 +1026,4 @@
 	to {
 		opacity: 0.8;
 	}
-}
-
-
-
-
-
-
-
-.fade-in{
-	transform: scale(0.7)!important;
 }

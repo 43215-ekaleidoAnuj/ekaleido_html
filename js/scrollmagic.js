@@ -6,7 +6,7 @@ const flightPath = {
 const tween = new TimelineLite();
 
 tween.add(
-    TweenLite.to("img-vector",1,{
+    TweenLite.to("img_vector",1,{
          bezier:flightPath,
          ease:Power1.easeInout
     })
@@ -15,13 +15,13 @@ tween.add(
 $(document).ready(function(){
     var controller = new ScrollMagic.Controller()
     var ourScene = new ScrollMagic.Scene({
-         triggerElement:"#vector_div",
+         triggerElement:".third_sec",
          duration:1000,
-         triggerHook: 0.5,
+         triggerHook: 0,
     })
-    .setClassToggle("#img-vector","fade-in")
+    .setClassToggle("#img_vector","animate_vector_div")
     .addIndicators()
-    .setPin("#vector_div")
+    .setPin(".third_sec")
     .addTo(controller)
 })
 

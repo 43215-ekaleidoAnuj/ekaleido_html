@@ -1,0 +1,64 @@
+
+.third_sec {
+	color: white;
+	height: 100vh;
+	width: 100%;
+
+	background: black;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+
+#img_vector {
+	transition: all 0.5s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.blackhole_cnt {
+	width: 60vh;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+
+.tum_stars {
+	z-index: 1;
+	width: 3px;
+	height: 3px;
+	opacity: 0.5;
+	position: absolute;
+	border-radius: 20px;
+	background: white;
+	transition: all 1s ease;
+	transform: rotate(45deg);
+}
+
+.star_div {
+	width: 103px;
+	height: 103px;
+	position: absolute;
+	top: 53px;
+	left: 38%;
+}
+
+.star_div_down {
+	width: 255px;
+	height: 255px;
+	position: absolute;
+	bottom: 60px;
+	left: 79px;
+}
+
+.star_div_half {
+	width: 11%;
+	height: 11%;
+	position: absolute;
+	top: 0;
+	right: 27px;
+}

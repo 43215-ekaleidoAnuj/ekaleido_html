@@ -1,0 +1,73 @@
+.landing_page {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+.arc_cut {
+	position: absolute;
+	left: 50%;
+	height: 63%;
+	width: 29%;
+	overflow: hidden;
+	transform: translateX(-50%);
+	top: 0;
+}
+
+.front_cloud {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	left: 12%;
+	top: 46%;
+}
+
+.back_cloud {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 34%;
+	top: 24%;
+
+	-webkit-mask-image: url(../../assets/images/arc_cut.png);
+	mask-image: url(../../assets/images/arc_cut.png);
+	-webkit-mask-size: 100%;
+	mask-size: 100%;
+	-webkit-mask-repeat: no-repeat;
+	mask-repeat: no-repeat;
+}
+
+.mobile {
+	position: absolute;
+	min-width: 32%;
+	min-height: 57%;
+	left: 14%;
+	top: 23%;
+	overflow: hidden;
+}
+
+.angel {
+	position: absolute;
+	width: 32%;
+	height: 57%;
+	left: 44%;
+	top: 40%;
+	overflow: hidden;
+}
+
+.btm_cloud {
+	position: absolute;
+	width: 100%;
+	bottom: -28%;
+	left: 0;
+	overflow-x: hidden;
+}
+
+.logo {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 3%;
+	width: 30%;
+	height: 60px;
+}

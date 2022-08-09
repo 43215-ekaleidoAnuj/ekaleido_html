@@ -6,8 +6,9 @@ function generateStars() {
 	para.style.left = Math.floor(Math.random() * 100) + "%";
 	document.getElementsByClassName("third_sec")[0].appendChild(para);
 }
-
-for (var i; i > 100; i++) {
+var i;
+for (i = 0; i < 100; i++) {
 	generateStars();
+	console.log("hi")
 }
 // setInterval(() => {}, 1000);

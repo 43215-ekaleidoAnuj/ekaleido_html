@@ -5,7 +5,8 @@
 
 @font-face {
 	font-family: "GothamBoldItalic";
-	src: local("GothamBoldItalic"), url(../assets/Gotham-Font/GothamBoldItalic.ttf)
+	src: local("GothamBoldItalic"),
+		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
 }
 
 .landing_page {
@@ -168,7 +169,7 @@
 .third_sec {
 	/* background-image: linear-gradient(0deg, black 65%, transparent);  */
 	color: white;
-	height: 200vh;
+	height: 100vh;
 	width: 100%;
 
 	background: black;
@@ -176,28 +177,28 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	overflow-x: hidden;
-}
-
-.vector_div {
-	/* position: relative;
-	width: 50vw;
-	height: 59%;
-	margin: auto;
-	z-index: 5;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	transform:  translate(-47%, -54%); */
-	transition: all 0.5s ease; 
+	overflow: hidden;
 }
 
 
+#img_vector {
+	transition: all 0.5s ease;
+	width: 100%;
+	height: 100%;
+}
+
+.blackhole_cnt {
+	width: 60vh;
+	height: auto;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
 
 .tum_stars {
 	z-index: 1;
 	width: 3px;
-	height: 7px;
+	height: 3px;
 	opacity: 0.5;
 	position: absolute;
 	border-radius: 20px;
@@ -413,7 +414,7 @@
 	font-size: 80px;
 	position: absolute;
 	bottom: -123px;
-    font-family: "GothamBoldItalic";
+	font-family: "GothamBoldItalic";
 	margin: 0;
 	text-align: center;
 	right: 0;
@@ -510,8 +511,8 @@
 .cloud_plane_section_2 {
 	position: absolute;
 	top: 0px;
-	
-    right: -17%;
+
+	right: -17%;
 
 	width: 30%;
 	height: 17%;
@@ -522,9 +523,8 @@
 	position: absolute;
 	width: 46%;
 	height: 47%;
-	
-    right: -27%;
 
+	right: -27%;
 }
 
 .top_plane {
@@ -624,9 +624,9 @@
 	border-radius: 20px;
 	box-sizing: border-box;
 	background-color: #f2b7b5;
-    -moz-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	border: 0.8rem solid #e86c8d;
-    -webkit-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
 }
 
 .house {
@@ -754,7 +754,6 @@
 	margin: auto;
 	color: white;
 	font-family: GothamBoldItalic;
-
 }
 
 .para_plane p {
@@ -786,7 +785,7 @@
 
 .carousel_lebel {
 	text-align: center;
-	
+
 	font-family: GothamFont;
 	font-style: italic;
 	font-weight: bold;
@@ -803,7 +802,7 @@
 	transform: translateY(-50%);
 	overflow: hidden;
 	display: flex;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 #carousel div {
 	position: absolute;
@@ -836,7 +835,7 @@
 	left: 30%;
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
-	text-align:flex-start;
+	text-align: flex-start;
 }
 #carousel img:hover {
 	cursor: pointer;
@@ -858,7 +857,7 @@
 	left: 50%;
 	transform: translateY(0px) translateX(-50%);
 	width: 33%;
-	text-align:center;
+	text-align: center;
 }
 #carousel div.next {
 	z-index: 5;
@@ -866,7 +865,6 @@
 	transform: translateY(50px) translateX(-50%);
 	width: 33%;
 	text-align: end;
-
 }
 #carousel div.next img {
 	width: 300px;
@@ -889,11 +887,7 @@
 	display: none;
 }
 
-
-
-
 /* start animation */
-
 
 .shooting_stars {
 	top: 0;
@@ -1013,69 +1007,3 @@
 		opacity: 0.8;
 	}
 }
-
-#img_vector {
-	transition: all 0.5s ease;
-	width: 10%;
-}
-
-.animate_vector_div_1 {
-	transform: rotate(180deg);
-	
-}
-.animate_vector_div_2 {
-	transform: rotate(360deg);
-
-}
-.animate_vector_div_3 {
-	transform: rotate(540deg);
-	
-}
-.animate_vector_div_4 {
-	transform: rotate(720deg);
-
-}
-.scrollMagic_div1 {
-    position: absolute;
-    top: 0%;
-    left: 0;
-    width: 100%;
-    height: 250px;
-}
-
-
-.scrollMagic_div2 {
-    position: absolute;
-    top: 25%;
-    left: 0;
-    width: 100%;
-	height: 250px;
-  
-}
-
-.scrollMagic_div3 {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-	height: 250px;
-
-  
-}
-.scrollMagic_div4 {
-    position: absolute;
-    top: 75%;
-    left: 0;
-    width: 100%;
-    height: 250px; 
-}
-
-
-
-
-.scalE{
-	width: 50%!important;
-}
-
-
-

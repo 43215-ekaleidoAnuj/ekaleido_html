@@ -1,0 +1,404 @@
+.fifth_sec {
+	min-height: 400vh;
+	background-image: url(../../assets/images/sky.png);
+	padding-top: 200px;
+	overflow: hidden;
+	position: relative;
+	z-index: 2;
+}
+
+.plane {
+	position: relative;
+	min-height: 30vh;
+	text-align: center;
+}
+.plane img {
+	width: 35%;
+}
+
+.cloud_plane_section_1 {
+	width: 39%;
+	position: absolute;
+	height: 36%;
+	top: 49%;
+	left: -15%;
+}
+
+.cloud_plane_section_2 {
+	position: absolute;
+	top: 0px;
+
+	right: -17%;
+
+	width: 30%;
+	height: 17%;
+}
+
+.cloud_plane_section_3 {
+	bottom: 0;
+	position: absolute;
+	width: 46%;
+	height: 47%;
+
+	right: -27%;
+}
+
+.top_plane {
+	min-height: 84vh;
+	position: relative;
+	padding-top: 173px;
+
+	padding-top: 173px;
+}
+
+.mid_plane {
+	min-height: 130vh;
+	position: relative;
+}
+
+.marashot {
+	position: relative;
+	height: 50%;
+	width: 50%;
+}
+
+.marashot {
+	position: relative;
+	height: 70vh;
+	width: 30%;
+	margin: auto;
+}
+
+.marashot2 {
+	position: absolute;
+	top: 15%;
+	right: 150px;
+	width: 16%;
+	height: 26%;
+	opacity: 0.7;
+}
+
+.cloud_plane {
+	position: absolute;
+	top: 50%;
+	right: -17%;
+	width: 36%;
+	height: 30%;
+}
+
+.bird {
+	position: absolute;
+	width: 20%;
+	height: 20%;
+	top: 62%;
+	left: 0px;
+}
+
+.bird2 {
+	position: absolute;
+	width: 14%;
+	height: 20%;
+	bottom: -200px;
+	right: 75px;
+	opacity: 0.8;
+}
+
+.building {
+	width: 100%;
+	display: flex;
+	min-height: 150vh;
+	position: relative;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.building_image {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.creative_name {
+	font-size: 2rem;
+	color: white;
+}
+
+.creative_wrapper {
+	width: 85%;
+	z-index: 10;
+	text-align: center;
+}
+
+.creative {
+	width: 100%;
+	z-index: 10;
+	height: 30rem;
+	position: relative;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-color: #f2b7b5;
+	-moz-box-sizing: border-box;
+	border: 0.8rem solid #e86c8d;
+	-webkit-box-sizing: border-box;
+}
+
+.house {
+	height: 100%;
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: 100%;
+	grid-gap: 1rem;
+}
+
+.hut_mid {
+	height: 80%;
+	width: 90%;
+	background-image: url(../../assets/images/mid.png);
+}
+
+.hut_sm {
+	height: 70%;
+	width: 80%;
+	background-image: url(../../assets/images/small.png);
+}
+
+.hut_lg {
+	width: 100%;
+	height: 100%;
+	align-self: flex-end;
+	justify-self: center;
+	justify-content: center;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	background-image: url(../../assets/images/center.png);
+
+	display: flex;
+	align-items: flex-end;
+	padding: 0 0.5rem;
+
+	padding-bottom: 4rem;
+}
+
+.hut_sm,
+.hut_mid {
+	display: grid;
+	grid-gap: 1rem;
+	align-self: flex-end;
+	background-size: contain;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	grid-template-rows: repeat(2, 1fr);
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.left1,
+.left2 {
+	justify-self: flex-end;
+}
+
+.right1,
+.right2 {
+	justify-self: flex-start;
+}
+
+.icon_lt {
+	justify-self: flex-end;
+}
+.icon_rt {
+	justify-self: flex-start;
+}
+.icon_dn {
+	align-self: flex-start;
+}
+.icon_up {
+	align-self: flex-end;
+}
+
+.icon_dn,
+.icon_up {
+	width: 50%;
+	height: 7rem;
+	border-radius: 1rem;
+	border: 0.5rem solid #e86c8d;
+	background-color: #f2b7b5;
+}
+
+.plane_pro {
+	position: absolute;
+	left: -17%;
+	right: 0;
+	text-align: center;
+	font-size: 75px;
+	top: -36px;
+	margin: 0;
+	font-family: GothamBoldItalic;
+	font-style: italic;
+	font-weight: bold;
+	color: transparent;
+	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-color: white;
+}
+
+.plane_buy {
+	top: 95px;
+	position: absolute;
+	font-size: 75px;
+	left: 66%;
+	right: 50%;
+	text-align: center;
+	margin: 0;
+	font-family: GothamBoldItalic;
+	font-style: italic;
+	font-weight: bold;
+	color: #fff;
+}
+
+.para_plane {
+	position: absolute;
+	bottom: -235px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	font-size: 30px;
+	font-size: 27px;
+	width: 73%;
+	margin: auto;
+	color: white;
+	font-family: GothamBoldItalic;
+}
+
+.para_plane p {
+	margin: 10px;
+	font-family: GothamBoldItalic;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.our_clients {
+	text-align: center;
+	font-size: 75px;
+	margin: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: -136px;
+	font-family: GothamBoldItalic;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+}
+
+.carousel_parashot {
+	width: 100%;
+	margin: auto;
+	height: 53vh;
+}
+
+.carousel_lebel {
+	text-align: center;
+
+	font-family: GothamFont;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+
+/* carousel css */
+
+#carousel {
+	position: relative;
+	min-height: 587px;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+}
+#carousel div {
+	position: absolute;
+	transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
+	opacity: 1;
+}
+#carousel div img {
+	width: 400px;
+	transition: width 400ms;
+	-webkit-user-drag: none;
+}
+#carousel div.hideLeft {
+	left: 0%;
+	opacity: 0;
+	transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideLeft img {
+	width: 200px;
+}
+#carousel div.hideRight {
+	left: 100%;
+	opacity: 0;
+	transform: translateY(50%) translateX(-50%);
+}
+#carousel div.hideRight img {
+	width: 200px;
+}
+#carousel div.prev {
+	z-index: 5;
+	left: 30%;
+	transform: translateY(50px) translateX(-50%);
+	width: 33%;
+	text-align: flex-start;
+}
+#carousel img:hover {
+	cursor: pointer;
+}
+#carousel div.prev img {
+	width: 300px;
+}
+#carousel div.prevLeftSecond {
+	z-index: 4;
+	left: 15%;
+	transform: translateY(50%) translateX(-50%);
+	opacity: 0.7;
+}
+#carousel div.prevLeftSecond img {
+	width: 200px;
+}
+#carousel div.selected {
+	z-index: 10;
+	left: 50%;
+	transform: translateY(0px) translateX(-50%);
+	width: 33%;
+	text-align: center;
+}
+#carousel div.next {
+	z-index: 5;
+	left: 70%;
+	transform: translateY(50px) translateX(-50%);
+	width: 33%;
+	text-align: end;
+}
+#carousel div.next img {
+	width: 300px;
+}
+#carousel div.nextRightSecond {
+	z-index: 4;
+	left: 85%;
+	transform: translateY(50%) translateX(-50%);
+	opacity: 0.7;
+}
+#carousel div.nextRightSecond img {
+	width: 200px;
+}
+
+.buttons {
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 10px;
+	display: none;
+}

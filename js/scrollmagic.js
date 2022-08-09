@@ -20,3 +20,79 @@ $(document).ready(function () {
 		.setPin(".third_sec")
 		.addTo(controller);
 });
+
+
+$(document).ready(function () {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: ".second_sec",
+    duration: 1000,
+    triggerHook: 0.25,
+  })
+    .setClassToggle(".ufo", "ufo_scrollM")
+
+    .addTo(controller);
+});
+
+$(document).ready(function () {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: ".second_sec",
+    duration: 1000,
+    triggerHook: 0.25,
+  })
+    .setClassToggle(".rays", "height-ray")
+
+    .addTo(controller);
+});
+
+$(document).ready(function () {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: ".div_meteoroid",
+    duration: 1500,
+    triggerHook: 0,
+  })
+    .setClassToggle(".fontSOCIAL", "left_social")
+
+    .addTo(controller);
+});
+
+$(document).ready(function () {
+  var controller = new ScrollMagic.Controller();
+  var ourScene = new ScrollMagic.Scene({
+    triggerElement: ".fifth_sec",
+    duration: 1000,
+    triggerHook: 0,
+  })
+    .setClassToggle("#air_lines", "planeMagic")
+
+    .addTo(controller);
+});
+
+const flightPath = {
+  curviness: 1.25,
+  autoRoted: true,
+  value: [
+    { x: -500, y: 500 },
+    { x: 1000, y: 1000 },
+  ],
+};
+const tween_meteor = new TimelineLite();
+
+tween_meteor.add(
+  TweenLite.to("#meteoroid_img", 0.5, {
+    bezier: flightPath,
+    ease: Power1.easeInout
+  })
+);
+var controller = new ScrollMagic.Controller();
+var ourScene = new ScrollMagic.Scene({
+		triggerElement: ".fourth_section",
+		duration: "1000",
+	
+	})
+	.setTween(tween_meteor)
+	.addIndicators()
+	.addTo(controller)
+

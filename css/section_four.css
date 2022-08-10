@@ -34,45 +34,41 @@
 .left_content_div {
 	width: 35%;
 }
+
 .left_content_div img {
 	width: 83%;
 	height: 100%;
 	object-fit: contain;
 }
 
-.meteoroid {
-	position: absolute;
-	width: 36%;
-	height: 34vh;
-	top: 10%;
-	left: 50%;
-	transform: translate(-50%, 124%);
-}
-.meteoroid img {
-	width: 89%;
-	height: 100%;
-}
-
 .div_meteoroid {
+	background-color: rgb(40, 40, 40);
 	position: relative;
-	min-height: 100vh;
+	width: 100%;
+	height: 100vh;
 }
 
-.rocket_image {
+.meteoroid_img {
 	position: absolute;
-	width: 70%;
-	text-align: center;
-	top: 23%;
-	left: 50%;
-	transform: translate(-50%, -2%);
+	right: 0;
+	top: 0;
+	width: 25%;
 }
 
-.rocket_image img {
-	width: 40%;
+.rocket_img {
+	left: 0%;
+	bottom: 0%;
+	width: 15%;
+	position: absolute;
 }
+
 .rocket {
-	min-height: 200vh;
+	background-color: rgb(40, 40, 40);
+	min-height: 100vh;
 	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .innovative {
@@ -123,20 +119,28 @@
 	font-style: italic;
 }
 
-.fontSOCIAL {
-	top: -9px;
+.font_social,
+.font_advertising {
 	position: absolute;
 	font-size: 75px;
-	left: -180%;
 	font-family: GothamBoldItalic;
 	font-style: italic;
 	font-weight: bold;
 	color: transparent;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
-	transition:  all 0.5s ease;
-
+	transition: all 0.5s ease;
 	margin: 0;
+}
+
+.font_social {
+	top: 40%;
+	left: -20%;
+}
+
+.font_advertising {
+	top: 60%;
+	right: -20%;
 }
 
 .Advertising {
@@ -157,13 +161,8 @@
 }
 
 .rocket_text {
-	position: absolute;
-	top: 0%;
-	left: 0;
-	right: 0;
-	width: 57%;
+	width: 100%;
 	font-size: 51px;
-	margin: auto;
 	text-align: center;
 }
 
@@ -180,27 +179,21 @@
 
 .text_programatic {
 	left: 0;
-	font-size: 80px;
-	position: absolute;
-	bottom: -123px;
-	font-family: "GothamBoldItalic";
 	margin: 0;
-	text-align: center;
 	right: 0;
+	font-size: 80px;
+	text-align: center;
 	font-style: italic;
 	font-weight: bold;
 	color: transparent;
+	margin-bottom: 2rem;
+	font-family: "GothamBoldItalic";
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 }
 
 .para_programatic {
-	position: absolute;
-
-	bottom: 33%;
-
-	left: 0;
-	right: 0;
+	color: #fff;
 	font-size: 30px;
 	text-align: center;
 	font-family: GothamBoldItalic;
@@ -250,13 +243,6 @@
 	background-repeat: no-repeat;
 }
 
-
-
-  
-  
-  .left_social{
-	  left:-266px;
-  }
-  
-  
-  
+/* .left_social {
+	left: -266px;
+} */

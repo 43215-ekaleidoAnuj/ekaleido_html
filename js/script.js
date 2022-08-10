@@ -9,6 +9,4 @@ function generateStars() {
 var i;
 for (i = 0; i < 100; i++) {
 	generateStars();
-	console.log("hi")
 }
-// setInterval(() => {}, 1000);

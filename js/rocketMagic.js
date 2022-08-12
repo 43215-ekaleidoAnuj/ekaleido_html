@@ -1,8 +1,9 @@
 const rocket_path = {
-	curviness: 0,
+	curviness: 1.25,
 	autoRotate: true,
 	values: [
 		{x: 0, y: 0},
+		{x: 300, y: -100},
 		{x: 750, y: -480},
 	],
 };

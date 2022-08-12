@@ -1,20 +1,19 @@
-
 .fourth_section {
 	color: white;
 	min-height: 450vh;
 	padding-top: 350px;
 	/* background-image: url("../assets/images/vector_smart.png"); */
 	background-image: linear-gradient(
-			180deg,
-			black 0%,
-			transparent 6%,
+			181deg,
+			black 3%,
+			transparent 17%,
 			transparent
 		),
 		url("../assets/images/vector_smart.png");
 	background-image: -webkit-gradient(
-		180deg,
-		black 0%,
-		transparent 6%,
+		181deg,
+		black 3%,
+		transparent 17%,
 		transparent
 	);
 	background-size: cover;
@@ -22,7 +21,7 @@
 	background-position: center;
 	position: relative;
 	z-index: 4;
-	overflow-y:visible;
+	overflow-y: visible;
 	overflow-x: clip;
 }
 
@@ -43,7 +42,6 @@
 }
 
 .div_meteoroid {
-	background-color: rgb(40, 40, 40);
 	position: relative;
 	width: 100%;
 	height: 100vh;
@@ -65,7 +63,6 @@
 }
 
 .rocket {
-	background-color: rgb(40, 40, 40);
 	min-height: 100vh;
 	position: relative;
 	display: flex;
@@ -88,10 +85,10 @@
 
 .bottoms_cloud {
 	position: absolute;
-	bottom: -127px;
+	bottom: -233px;
 	left: 0;
 	width: 100%;
-	height: 12%;
+	height: auto;
 }
 
 .bottoms_cloud img {
@@ -115,11 +112,11 @@
 
 .right_content_div p {
 	font-family: GothamBoldItalic;
-    font-size: 35px;
-    word-spacing: 0px;
-    font-weight: bold;
-    font-style: italic;
-    margin-bottom: 19px;
+	font-size: 35px;
+	word-spacing: 0px;
+	font-weight: bold;
+	font-style: italic;
+	margin-bottom: 19px;
 }
 
 .font_social,
@@ -161,13 +158,14 @@
 	-webkit-background-clip: text;
 	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
 		1px 1px 0 #fff;
-		transition:  all 0.9s ease;
+	transition: all 0.9s ease;
 }
 
 .rocket_text {
 	width: 100%;
 	font-size: 51px;
 	text-align: center;
+	padding-top: 5rem;
 }
 
 .rocket_text h6 {
@@ -203,25 +201,28 @@
 	font-family: GothamBoldItalic;
 	font-style: italic;
 	font-weight: bold;
+	padding-bottom: 5rem;
 }
 .para_programatic p {
 	margin: 5px;
 }
 
 .ul_rocket {
-	color: white;
-	left: 0;
-	position: absolute;
-	bottom: 0%;
-	right: 0;
-	width: 56%;
+	width: 100%;
 	margin: auto;
+	height: 100vh;
+	color: white;
 	font-size: 25px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 .ul_rocket ul {
 	margin: auto;
-	padding: 0;
+	padding: 0 15rem;
 	list-style: none;
 	font-family: GothamBoldItalic;
 	font-style: italic;
@@ -246,6 +247,3 @@
 	background-size: contain;
 	background-repeat: no-repeat;
 }
-
-
-

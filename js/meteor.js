@@ -59,7 +59,6 @@ var ourScene = new ScrollMagic.Scene({
 	triggerHook: 0,
 })
 	.setTween(tween_social)
-	.addIndicators()
 	.addTo(controller);
 
 var controller = new ScrollMagic.Controller();
@@ -68,7 +67,6 @@ var ourScene = new ScrollMagic.Scene({
 	duration: "1000",
 	triggerHook: 0,
 })
-	.addIndicators()
 	.setTween(tween_meteor)
 	.setPin(".div_meteoroid")
 	.addTo(controller);
@@ -80,5 +78,4 @@ var ourScene = new ScrollMagic.Scene({
 	triggerHook: 0,
 })
 	.setTween(tween_advert)
-	.addIndicators()
 	.addTo(controller);

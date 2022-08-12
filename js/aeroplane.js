@@ -55,7 +55,6 @@ $(document).ready(function () {
 	})
 		.setPin(".top_plane")
 		.setTween(para_plane_tween)
-		.addIndicators()
 		.addTo(controller);
 });
 
@@ -67,7 +66,6 @@ $(document).ready(function () {
 		triggerHook: 0.5,
 	})
 		.setClassToggle(".plane_pro", "pro_text")
-		.addIndicators()
 		.addTo(controller);
 });
 

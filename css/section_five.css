@@ -262,6 +262,13 @@
 	transition: all 0.5s ease;
 }
 
+.carousel_item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
 .para_plane {
 	bottom: 0;
 	width: 100%;

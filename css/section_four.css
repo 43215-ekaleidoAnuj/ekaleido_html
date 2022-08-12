@@ -1,6 +1,6 @@
 .fourth_section {
 	color: white;
-	min-height: 450vh;
+	min-height: 650vh;
 	padding-top: 350px;
 	/* background-image: url("../assets/images/vector_smart.png"); */
 	background-image: linear-gradient(
@@ -90,7 +90,6 @@
 	width: 100%;
 	height: auto;
 }
-
 .bottoms_cloud img {
 	height: 100%;
 	width: 100%;

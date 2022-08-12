@@ -1,0 +1,49 @@
+@media (max-width:1600px) {
+    .star_div_half{
+
+        right: 54px;
+    }
+
+    
+}
+
+@media (max-width:1500px) {
+    .rocket_text {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        right: 0;
+        width: 57%;
+        font-size: 41px;
+    } 
+
+    .right_Advertising {
+        right: -202px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:1562px) {
+    .p_abouttext::after {    
+        left: -60px;
+    }   
+
+
+    .right_content_div p {
+        font-family: GothamBoldItalic;
+        font-size: 30px;
+        word-spacing: 0px;
+        font-weight: bold;
+        font-style: italic;
+        margin-bottom: 19px;
+    }
+
+
+    .right_content_div h6 {
+        margin-bottom: 25px;
+    }
+}

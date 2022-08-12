@@ -1,3 +1,5 @@
+
+
 .fifth_sec {
 	min-height: 400vh;
 	background-image: url(../../assets/images/sky.png);
@@ -13,7 +15,11 @@
 	text-align: center;
 }
 .plane img {
-	width: 35%;
+    width: 35%;
+    position: absolute;
+    left: -35%;
+	transition: all 0.5s ease;
+
 }
 
 .cloud_plane_section_1 {
@@ -230,7 +236,7 @@
 
 .plane_pro {
 	position: absolute;
-	left: -17%;
+	left: -200%;
 	right: 0;
 	text-align: center;
 	font-size: 75px;
@@ -242,6 +248,7 @@
 	color: transparent;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
+	transition: all 1s ease;
 }
 
 .plane_buy {
@@ -249,13 +256,14 @@
 	position: absolute;
 	font-size: 75px;
 	left: 66%;
-	right: 50%;
+	right: -50%;
 	text-align: center;
 	margin: 0;
 	font-family: GothamBoldItalic;
 	font-style: italic;
 	font-weight: bold;
 	color: #fff;
+	transition: all 0.5s ease;
 }
 
 .para_plane {
@@ -401,4 +409,35 @@
 	transform: translateX(-50%);
 	bottom: 10px;
 	display: none;
+}
+
+
+
+
+.plane_lift{
+
+	 
+    left: 33%!important;
+}
+
+
+
+
+.pro_text{
+	left:-17%!important;
+}
+
+
+
+.buy_text{
+	right:50%!important;
+}
+
+.land{
+	z-index: 55;
+    position: absolute;
+    object-fit: inherit;
+    bottom: -50%;
+    height: revert;
+    height: 95%;
 }

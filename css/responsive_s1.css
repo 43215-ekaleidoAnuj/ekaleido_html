@@ -1,0 +1,12 @@
+@media (max-width:1600px) {
+    .mobile {
+
+        left: 4%;
+    }
+
+
+    .btm_cloud {
+        bottom: -43%;
+    }
+    
+}

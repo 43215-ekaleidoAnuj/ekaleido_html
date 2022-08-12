@@ -15,7 +15,6 @@ $(document).ready(function () {
 		triggerHook: 0,
 	})
 		.setTween(tween)
-		.addIndicators()
 		.setClassToggle("#img_vector", "scale")
 		.setPin(".third_sec")
 		.addTo(controller);
@@ -26,11 +25,10 @@ $(document).ready(function () {
   var controller = new ScrollMagic.Controller();
   var ourScene = new ScrollMagic.Scene({
     triggerElement: ".second_sec",
-    duration: 1000,
+    duration: 1500,
     triggerHook: 0.25,
   })
     .setClassToggle(".ufo", "ufo_scrollM")
-
     .addTo(controller);
 });
 
@@ -42,7 +40,6 @@ $(document).ready(function () {
     triggerHook: 0.25,
   })
     .setClassToggle(".rays", "height-ray")
-
     .addTo(controller);
 });
 
@@ -54,9 +51,20 @@ $(document).ready(function () {
     triggerHook: 0,
   })
     .setClassToggle(".fontSOCIAL", "left_social")
-
     .addTo(controller);
 });
+
+
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+	  triggerElement: ".div_meteoroid",
+	  duration: 1500,
+	  triggerHook: 0,
+	})
+	  .setClassToggle(".Advertising", "right_Advertising")
+	  .addTo(controller);
+  });
 
 $(document).ready(function () {
   var controller = new ScrollMagic.Controller();
@@ -65,34 +73,74 @@ $(document).ready(function () {
     duration: 1000,
     triggerHook: 0,
   })
-    .setClassToggle("#air_lines", "planeMagic")
-
-    .addTo(controller);
+    .setClassToggle("#air_lines", "plane_lift")
+	.addTo(controller);
 });
 
+
+
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+	  triggerElement: ".fifth_sec",
+	  duration: 1000,
+	  triggerHook: 0,
+	})
+	  .setClassToggle(".plane_pro", "pro_text")
+	  .addTo(controller);
+  });
+
+
+  $(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+	  triggerElement: ".fifth_sec",
+	  duration: 1000,
+	  triggerHook: 0,
+	})
+	  .setClassToggle(".plane_buy", "buy_text")
+	  .addTo(controller);
+  });
+  
+
+  
+
+
+// $(document).ready(function () {
+// 	var controller = new ScrollMagic.Controller();
+// 	var ourScene = new ScrollMagic.Scene({
+// 	  triggerElement: ".div_meteoroid",
+// 	  duration: 1500,
+// 	  triggerHook: 0,
+// 	})
+// 	  .setClassToggle("#meteoroid_img", "meteoroid-roid")
+// 	  .addTo(controller);
+//   });
+
 const flightPath = {
-  curviness: 1.25,
-  autoRoted: true,
+  curviness: 4,
+  autoRoted: false,
   value: [
-    { x: -500, y: 500 },
-    { x: 1000, y: 1000 },
+    { x: 500, y: 500 },
   ],
 };
-const tween_meteor = new TimelineLite();
 
+const tween_meteor = new TimelineLite();
 tween_meteor.add(
-  TweenLite.to("#meteoroid_img", 0.5, {
+  TweenLite.to(".meteoroid_img", 0.5, {
     bezier: flightPath,
-    ease: Power1.easeInout
+    ease: Power2.easeInout
   })
 );
-var controller = new ScrollMagic.Controller();
+
+var meteor_controller = new ScrollMagic.Controller();
 var ourScene = new ScrollMagic.Scene({
-		triggerElement: ".fourth_section",
-		duration: "1000",
-	
+		triggerElement: ".div_meteoroid",
+		duration: "500",
+		triggerHook: 0,
 	})
 	.setTween(tween_meteor)
-	.addIndicators()
-	.addTo(controller)
+	
+	
+	.addTo(meteor_controller)
 

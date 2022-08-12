@@ -14,6 +14,15 @@
 	top: 0;
 }
 
+img.arc_cut_logo {
+    position: absolute;
+    top: 27px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+
 .front_cloud {
 	position: absolute;
 	width: 20%;
@@ -71,3 +80,7 @@
 	width: 30%;
 	height: 60px;
 }
+
+
+
+

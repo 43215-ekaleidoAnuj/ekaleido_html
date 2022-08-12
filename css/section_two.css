@@ -10,6 +10,20 @@
 	overflow: hidden;
 }
 
+.about_us{
+	position: absolute;
+    top: 50%;
+    color: white;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+	font-family: GothamBoldItalic;
+	
+	font-weight: bold;
+}
+
 .black_overlay {
 	height: 100%;
 	width: 100%;
@@ -90,3 +104,45 @@
 	height: 200vh;
   }
   
+
+  .p_abouttext p{
+	margin-bottom: 15px;
+	font-size: 40px;
+  }
+
+
+
+.p_abouttext {
+    position: relative;
+}
+
+.p_abouttext::after{
+	position: absolute;
+	left: -110px;
+
+	top: 0;
+	width: 5px;
+	height: 100%;
+	background:white;
+	content: "";
+
+}
+
+
+.staR_about {
+    position: absolute;
+    top: 37%;
+    width: 5%;
+    left: 11%;
+    height: 6%;
+}
+
+
+
+.staR2_about {
+    position: absolute;
+    top: 15%;
+    width: 5%;
+    right: 11%;
+    height: 6%;
+}

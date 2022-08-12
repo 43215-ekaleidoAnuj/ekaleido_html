@@ -404,11 +404,7 @@
 }
 
 .buttons {
-	position: fixed;
-	left: 50%;
-	transform: translateX(-50%);
-	bottom: 10px;
-	display: none;
+	text-align: center;
 }
 
 

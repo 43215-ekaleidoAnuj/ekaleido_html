@@ -31,8 +31,6 @@
     .p_abouttext::after {    
         left: -60px;
     }   
-
-
     .right_content_div p {
         font-family: GothamBoldItalic;
         font-size: 30px;
@@ -41,8 +39,6 @@
         font-style: italic;
         margin-bottom: 19px;
     }
-
-
     .right_content_div h6 {
         margin-bottom: 25px;
     }

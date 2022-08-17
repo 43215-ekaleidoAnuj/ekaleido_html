@@ -101,6 +101,16 @@
 	font-size: 67px;
 	margin: 0;
 	font-style: italic;
+	position: relative;
+}
+
+.right_content_div h6::before {
+	bottom: 0;
+	content: "";
+	height: 3px;
+	width: 150px;
+	position: absolute;
+	background-color: white;
 }
 
 .right_content_div {
@@ -110,12 +120,12 @@
 }
 
 .right_content_div p {
-	font-family: GothamBoldItalic;
-	font-size: 35px;
-	word-spacing: 0px;
+	font-size: 28px;
+	line-height: 2rem;
 	font-weight: bold;
 	font-style: italic;
-	margin-bottom: 19px;
+	margin-top: 19px;
+	font-family: GothamBoldItalic;
 }
 
 .font_social,
@@ -189,7 +199,7 @@
 	text-align: center;
 
 	color: transparent;
-    margin: 4rem 0 6rem 0;
+	margin: 4rem 0 6rem 0;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 }

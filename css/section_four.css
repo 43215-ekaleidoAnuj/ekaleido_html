@@ -58,7 +58,7 @@
 .rocket_img {
 	left: 0%;
 	bottom: 0%;
-	width: 15%;
+	width: 20%;
 	position: absolute;
 }
 
@@ -133,12 +133,12 @@
 }
 
 .font_social {
-	top: 40%;
+	top: 20%;
 	left: -20%;
 }
 
 .font_advertising {
-	top: 60%;
+	top: 40%;
 	right: -20%;
 }
 
@@ -160,16 +160,19 @@
 	transition: all 0.9s ease;
 }
 
-.rocket_text {
+.sm_text {
 	width: 100%;
-	font-size: 51px;
-	text-align: center;
+	bottom: 10rem;
+
 	padding-top: 5rem;
+	position: absolute;
+	text-align: center;
 }
 
-.rocket_text h6 {
+.sm_text p {
 	margin: 15px 0;
 	font-family: GothamBoldItalic;
+	font-size: 2.5rem;
 	font-style: italic;
 	font-weight: bold;
 	color: transparent;
@@ -178,32 +181,49 @@
 	text-shadow: -1px -1px 0 #fff;
 }
 
-.text_programatic {
-	left: 0;
-	margin: 0;
-	right: 0;
-	font-size: 80px;
+.head_programatic {
+	display: flex;
+	width: 100%;
+	margin-bottom: 1rem;
+	justify-content: center;
 	text-align: center;
-	font-style: italic;
-	font-weight: bold;
+
 	color: transparent;
-	margin-bottom: 2rem;
-	font-family: "GothamBoldItalic";
+    margin: 4rem 0 6rem 0;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 }
 
-.para_programatic {
-	color: #fff;
-	font-size: 30px;
-	text-align: center;
-	font-family: GothamBoldItalic;
+.head_programatic h6 {
+	font-size: 80px;
 	font-style: italic;
 	font-weight: bold;
+	font-family: GothamBoldItalic;
+}
+
+.programmatic {
+	position: absolute;
+	left: -30%;
+	margin-right: 1rem;
+}
+
+.buying {
+	position: absolute;
+	right: -14%;
+}
+
+.para_programatic {
+	color: #fff;
 	padding-bottom: 5rem;
 }
+
 .para_programatic p {
 	margin: 5px;
+	font-size: 30px;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-family: GothamBoldItalic;
 }
 
 .ul_rocket {

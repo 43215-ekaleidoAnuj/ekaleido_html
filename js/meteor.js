@@ -1,9 +1,13 @@
+const tween_meteor = new TimelineLite();
+const tween_social = new TimelineLite();
+const tween_advert = new TimelineLite();
+
 const meteorPath = {
 	curviness: 1,
 	autoRotate: true,
 	values: [
 		{x: 0, y: 0},
-		{x: -700, y: 400},
+		{x: -700, y: 200},
 	],
 };
 const socialPath = {
@@ -15,7 +19,6 @@ const socialPath = {
 		{x: 700, y: 0},
 	],
 };
-
 const advertisePath = {
 	curviness: 1,
 	autoRotate: true,
@@ -25,10 +28,6 @@ const advertisePath = {
 		{x: -900, y: 0},
 	],
 };
-
-const tween_meteor = new TimelineLite();
-const tween_social = new TimelineLite();
-const tween_advert = new TimelineLite();
 
 tween_meteor.add(
 	TweenLite.to(".meteoroid_img", 1, {

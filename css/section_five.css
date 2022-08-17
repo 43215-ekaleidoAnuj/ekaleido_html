@@ -54,7 +54,7 @@
 }
 
 .mid_plane {
-	min-height: 130vh;
+	min-height: 100vh;
 	position: relative;
 }
 
@@ -89,26 +89,30 @@
 }
 
 .bird {
+	top: 0;
+	width: 10%;
+	height: 15%;
+	right: 0;
 	position: absolute;
-	width: 20%;
-	height: 20%;
-	top: 62%;
-	left: 0px;
 }
 
 .bird2 {
 	position: absolute;
-	width: 14%;
+	width: 8%;
 	height: 20%;
-	bottom: -200px;
-	right: 75px;
-	opacity: 0.8;
+	top: 0;
+	right: -204px;
+}
+
+.bird img,
+.bird2 img {
+	width: 100%;
 }
 
 .building {
 	width: 100%;
 	display: flex;
-	min-height: 150vh;
+	min-height: 100vh;
 	position: relative;
 	align-items: flex-end;
 	justify-content: center;

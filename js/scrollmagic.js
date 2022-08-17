@@ -1,3 +1,25 @@
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+		triggerElement: ".second_sec",
+		duration: 1500,
+		triggerHook: 0.25,
+	})
+		.setClassToggle(".ufo", "ufo_scrollM")
+		.addTo(controller);
+});
+
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+		triggerElement: ".second_sec",
+		duration: 1000,
+		triggerHook: 0.25,
+	})
+		.setClassToggle(".rays", "height-ray")
+		.addTo(controller);
+});
+
 const tween = new TimelineLite();
 
 tween.add(
@@ -18,28 +40,3 @@ $(document).ready(function () {
 		.setPin(".third_sec")
 		.addTo(controller);
 });
-
-$(document).ready(function () {
-  var controller = new ScrollMagic.Controller();
-  var ourScene = new ScrollMagic.Scene({
-    triggerElement: ".second_sec",
-    duration: 1500,
-    triggerHook: 0.25,
-  })
-    .setClassToggle(".ufo", "ufo_scrollM")
-    .addTo(controller);
-});
-
-$(document).ready(function () {
-  var controller = new ScrollMagic.Controller();
-  var ourScene = new ScrollMagic.Scene({
-    triggerElement: ".second_sec",
-    duration: 1000,
-    triggerHook: 0.25,
-  })
-    .setClassToggle(".rays", "height-ray")
-    .addTo(controller);
-});
-
-
-

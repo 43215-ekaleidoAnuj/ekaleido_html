@@ -50,7 +50,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".fifth_sec",
-		duration: 2000,
+		duration: 1000,
 		triggerHook: 0,
 	})
 		.setPin(".top_plane")

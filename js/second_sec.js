@@ -31,10 +31,18 @@ $(document).ready(function () {
 		.addTo(controller);
 });
 
-const tween = new TimelineLite();
-tween.add(
+const blackhole_tween = new TimelineLite();
+
+blackhole_tween.add(
+	TweenLite.from("#img_vector", 0.1, {
+		css: {scale: 0.01, rotation: 360},
+		ease: Quad.easeInOut,
+	})
+);
+
+blackhole_tween.add(
 	TweenLite.to("#img_vector", 0.1, {
-		rotation: 360,
+		css: {scale: 1},
 		ease: Linear.easyNone,
 	})
 );
@@ -46,7 +54,7 @@ $(document).ready(function () {
 		duration: 2000,
 		triggerHook: 0,
 	})
-		.setTween(tween)
+		.setTween(blackhole_tween)
 		.setPin(".third_sec")
 		.addTo(controller);
 });

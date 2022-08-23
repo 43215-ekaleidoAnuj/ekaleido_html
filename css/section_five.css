@@ -234,6 +234,15 @@
 	background-color: #f2b7b5;
 }
 
+.home_icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home_icon img {
+	width: 90%;
+}
 .plane_pro {
 	position: absolute;
 	left: -200%;

@@ -67,7 +67,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1500,
+		duration: 1000,
 		triggerHook: 0,
 	})
 		.setTween(prog_tween)
@@ -78,7 +78,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1500,
+		duration: 1000,
 		triggerHook: 0,
 	})
 		.setTween(buy_tween)

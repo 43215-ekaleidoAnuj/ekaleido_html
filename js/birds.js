@@ -55,6 +55,9 @@ bird2_tween.add(
 		bezier: bird2_path,
 		ease: Power1.easeInOut,
 	})
+	{x: -300, y: 90},
+	{x: -900, y: 100},
+
 );
 
 var controller = new ScrollMagic.Controller();

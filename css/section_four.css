@@ -65,7 +65,7 @@
 	position: relative;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-end;
 }
 
 .innovative {
@@ -190,14 +190,14 @@
 }
 
 .head_programatic {
-	display: flex;
+	top: 35%;
 	width: 100%;
-	margin-bottom: 1rem;
-	justify-content: center;
+	display: flex;
+	position: absolute;
 	text-align: center;
-
 	color: transparent;
 	margin: 4rem 0 6rem 0;
+	justify-content: center;
 	-webkit-text-stroke-width: 3px;
 	-webkit-text-stroke-color: white;
 }
@@ -221,13 +221,17 @@
 }
 
 .para_programatic {
-	color: #fff;
-	padding-bottom: 5rem;
+	margin: 0 0 5rem 0;
 }
 
-.para_programatic p {
-	margin: 5px;
+.text_programatic {
+	/* position: absolute; */
+	/* bottom: 0; */
+	/* left: 50%; */
+	width: 100vw;
+	color: #fff;
 	font-size: 30px;
+	/* margin-left: -50vw; */
 	font-weight: bold;
 	text-align: center;
 	font-style: italic;
@@ -235,20 +239,19 @@
 }
 
 .ul_rocket {
+	/* left: 0; */
 	width: 100%;
-	margin: auto;
-	height: 100vh;
-	color: white;
-	font-size: 25px;
-	position: relative;
 	display: flex;
-	justify-content: center;
+	color: white;
+	/* bottom: -250px; */
+	font-size: 25px;
+	/* position: absolute; */
 	align-items: center;
-	
+	justify-content: center;
 }
 
 .ul_rocket ul {
-	margin: auto;
+	/* margin: auto; */
 	padding: 0 15rem;
 	list-style: none;
 	font-family: GothamBoldItalic;

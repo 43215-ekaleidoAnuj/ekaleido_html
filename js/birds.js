@@ -32,7 +32,6 @@ var ourScene = new ScrollMagic.Scene({
 	.setPin(".building")
 	.addTo(controller);
 
-//
 const bird2_tween = new TimelineLite();
 const bird2_path = {
 	curviness: 1.25,
@@ -54,7 +53,7 @@ bird2_tween.add(
 		rotation: 0,
 		bezier: bird2_path,
 		ease: Power1.easeInOut,
-	})
+	}),
 	{x: -300, y: 90},
 	{x: -900, y: 100},
 

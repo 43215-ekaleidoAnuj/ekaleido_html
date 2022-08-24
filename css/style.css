@@ -8,7 +8,11 @@
 	src: local("GothamBoldItalic"),
 		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
 }
-
+@font-face {
+	font-family: "GothamBookItalic";
+	src: local("GothamBookItalic"),
+		url(../assets/Gotham-Font/GothamBookItalic.ttf);
+}
 /* ANIMATION CSS */
 
 .shooting_stars {

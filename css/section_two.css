@@ -12,16 +12,13 @@
 
 .about_us {
 	position: absolute;
-	top: 40%;
+	top: 35%;
 	color: white;
-	font-size: 48px;
-	display: flex;
-	align-items: center;
+	
+	
 	width: 100%;
-	justify-content: space-evenly;
-	font-family: GothamBoldItalic;
-
-	font-weight: bold;
+	
+   text-align: center;
 }
 
 .black_overlay {
@@ -100,20 +97,23 @@
 
 .p_abouttext p {
 	margin-bottom: 15px;
-	font-size: 40px;
+	font-size: 30px;
 }
 
 .p_abouttext {
 	position: relative;
+	margin-top: 130px;
+	font-family: "GothamBookItalic";
 }
 
 .p_abouttext::after {
 	position: absolute;
-	left: -110px;
-
-	top: 0;
-	width: 5px;
-	height: 100%;
+	left: 0px;
+	right: 0;
+   margin: 0 auto;
+	top: -65px;
+	width:17%;
+	height: 3%;
 	background: white;
 	content: "";
 }
@@ -132,4 +132,10 @@
 	width: 5%;
 	right: 11%;
 	height: 6%;
+}
+
+
+
+.about_uS{
+	width: 22%;
 }

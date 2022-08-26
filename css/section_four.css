@@ -182,7 +182,6 @@
 	font-family: "GothamBookItalic";
 	font-size: 2.5rem;
 	font-style: italic;
-
 	color: transparent;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -225,9 +224,6 @@
 }
 
 .text_programatic {
-	/* position: absolute; */
-	/* bottom: 0; */
-	/* left: 50%; */
 	width: 100vw;
 	color: #fff;
 	font-size: 30px;
@@ -237,19 +233,15 @@
 }
 
 .ul_rocket {
-	/* left: 0; */
 	width: 100%;
 	display: flex;
 	color: white;
-	/* bottom: -250px; */
 	font-size: 25px;
-	/* position: absolute; */
 	align-items: center;
 	justify-content: center;
 }
 
 .ul_rocket ul {
-	/* margin: auto; */
 	padding: 0 15rem;
 	list-style: none;
 	font-family: "GothamBookItalic";

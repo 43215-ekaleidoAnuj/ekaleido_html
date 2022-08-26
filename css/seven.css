@@ -8,9 +8,22 @@
 }
 
 .lamp_fish {
+	left: -40%;
 	top: 30%;
 	width: 40%;
 	position: absolute;
+}
+
+.communication {
+	top: 40%;
+	right: 0;
+	width: 50%;
+	height: 100vh;
+	align-items: center;
+	display: grid;
+	position: absolute;
+	grid-template-columns: 100%;
+	grid-template-rows: repeat(3, 1fr);
 }
 
 .underwaterrock {

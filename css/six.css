@@ -1,0 +1,63 @@
+.six{
+    background: url(../assets/images/water.png);
+    min-height: 200vh;
+    background-size: cover;
+    margin-top: -89px;
+    position: relative;
+}
+
+.six_main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200vh;
+}
+
+
+.dark_section{
+  
+    background-image: linear-gradient(transparent, black, transparent);
+    min-height: 83vh;
+    position: absolute;
+    width: 100%;
+    bottom: -19%;
+    z-index: 5;
+
+}
+
+
+.rock_mountain{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+
+.TENTICLES{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+}
+
+
+.coralright{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+.bubbleS{
+  position: absolute;
+  bottom: 0;
+}
+
+
+.fillter{
+    position: absolute;
+    top: 17%;
+}

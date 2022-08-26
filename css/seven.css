@@ -1,0 +1,39 @@
+.seven{
+      
+     background-color: black;
+     min-height: 50vh;
+ position: relative;
+}
+
+.seven_main{
+    display: flex;
+    align-items: center;
+   
+    min-height: 50vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.seven_main img{
+
+    position: absolute;
+     width: 61%;
+}
+
+
+.unwaterrockfish{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.dark_section2{
+
+    background-image: linear-gradient(transparent, black, transparent);
+    min-height: 48vh;
+    position: absolute;
+    width: 100%;
+    bottom: -52%;
+    z-index: 5;
+
+}

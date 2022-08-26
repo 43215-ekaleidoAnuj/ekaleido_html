@@ -11,8 +11,8 @@ const fish_path = {
 		{x: 650, y: 20},
 		{x: 700, y: 40},
 		{x: 900, y: 20},
-		{x: 1000, y: 0},
-		{x: 1200, y: 20},
+		// {x: 1000, y: 0},
+		// {x: 1200, y: 20},
 	],
 };
 
@@ -33,4 +33,36 @@ var ourScene = new ScrollMagic.Scene({
 	.setPin(".seven")
 	.addIndicators()
 	.setTween(fish_tween)
+	.addTo(controller);
+
+// --------------------------------------------
+//
+// communication
+
+const communication_tween = new TimelineLite();
+const communication_path = {
+	curviness: 1.25,
+	autoRotate: true,
+	values: [
+		{x: 0, y: 0},
+		{x: 0, y: -400},
+		{x: 0, y: -800},
+	],
+};
+
+communication_tween.add(
+	TweenLite.to(".communication", 1, {
+		rotation: 0,
+		bezier: communication_path,
+		ease: Power1.easeInOut,
+	})
+);
+
+var controller = new ScrollMagic.Controller();
+var ourScene = new ScrollMagic.Scene({
+	triggerElement: ".seven",
+	duration: "1500",
+	triggerHook: 0,
+})
+	.setTween(communication_tween)
 	.addTo(controller);

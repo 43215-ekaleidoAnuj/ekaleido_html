@@ -56,10 +56,10 @@
 }
 
 .filter {
-    position: absolute;
-    top: 19%;
+	position: absolute;
+	top: 15%;
     z-index: 15;
-    width: 10%;
+    width: 17%;
 }
 .carousel_phone {
 	width: 70%;

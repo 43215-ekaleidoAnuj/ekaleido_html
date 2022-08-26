@@ -39,6 +39,7 @@
 	position: absolute;
 	bottom: -160px;
 	z-index: 3;
+	height: 58%;
 }
 
 .coralright {
@@ -51,14 +52,15 @@
 .bubbleS {
 	position: absolute;
 	bottom: 0;
+	width: 22%;
 }
 
 .filter {
-	position: absolute;
-	top: 5%;
-	z-index: 15;
+    position: absolute;
+    top: 19%;
+    z-index: 15;
+    width: 10%;
 }
-
 .carousel_phone {
 	width: 70%;
 }
@@ -114,14 +116,18 @@ img.control_next:hover {
 	-webkit-transition: all 0.2s ease;
 }
 
+
 img.control_prev {
-	border-radius: 0 2px 2px 0;
-	left: 19%;
+    border-radius: 0 2px 2px 0;
+    left: 32%;
+    width: 5%;
 }
 
 img.control_next {
-	right: 19%;
+	right: 32%;
 	border-radius: 2px 0 0 2px;
+	
+    width: 5%;
 }
 
 .slider_option {
@@ -130,3 +136,9 @@ img.control_next {
 	width: 160px;
 	font-size: 18px;
 }
+#slider ul li img {
+    width: 51%;
+   
+    margin: 41% 0 0;
+}
+

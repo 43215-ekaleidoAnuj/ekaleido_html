@@ -46,12 +46,12 @@ const communication_path = {
 	values: [
 		{x: 0, y: 0},
 		{x: 0, y: -400},
-		{x: 0, y: -800},
 	],
 };
 
 communication_tween.add(
 	TweenLite.to(".communication", 1, {
+		opacity: 1,
 		rotation: 0,
 		bezier: communication_path,
 		ease: Power1.easeInOut,

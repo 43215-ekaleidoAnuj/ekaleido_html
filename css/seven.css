@@ -17,6 +17,7 @@
 .communication {
 	top: 40%;
 	right: 0;
+	opacity: 0;
 	width: 50%;
 	height: 100vh;
 	align-items: center;
@@ -49,3 +50,32 @@
 	background-image: linear-gradient(0deg, black, transparent);
 	bottom: 0;
 }
+.engage , .connect ,.interact{
+	background:linear-gradient(to right,#1d9b4c,#22344b,#000);
+ 	-webkit-background-clip:text;
+
+
+	-webkit-text-fill-color: transparent;
+
+	
+	/* -webkit-animation:ani 6s linear infinite; */
+
+    font-size: 11rem;
+	font-family: "GothamBoldItalic";
+
+  
+}
+.connect{
+	font-size:9rem;
+	background:linear-gradient(to right,#1d9b4c,#22344b,#000);
+	-webkit-background-clip:text;
+
+}
+
+.interact{
+	font-size:9rem;
+}
+/* @keyframes ani{
+	from{background-position:-280px -94px;}
+	to{background-position:680px -94px;}
+  } */

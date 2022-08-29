@@ -31,7 +31,6 @@ var ourScene = new ScrollMagic.Scene({
 	triggerHook: 0,
 })
 	.setPin(".seven")
-	.addIndicators()
 	.setTween(fish_tween)
 	.addTo(controller);
 

@@ -34,12 +34,21 @@
 	z-index: 3;
 }
 
-.TENTICLES {
+.tenticles1,
+.tenticles2 {
 	width: 100%;
 	position: absolute;
-	bottom: -160px;
+
 	z-index: 3;
 	height: 58%;
+}
+
+.tenticles1 {
+	bottom: -320px;
+}
+
+.tenticles2 {
+	bottom: -320px;
 }
 
 .coralright {
@@ -58,8 +67,8 @@
 .filter {
 	position: absolute;
 	top: 15%;
-    z-index: 15;
-    width: 17%;
+	z-index: 15;
+	width: 17%;
 }
 .carousel_phone {
 	width: 70%;
@@ -116,18 +125,17 @@ img.control_next:hover {
 	-webkit-transition: all 0.2s ease;
 }
 
-
 img.control_prev {
-    border-radius: 0 2px 2px 0;
-    left: 32%;
-    width: 5%;
+	border-radius: 0 2px 2px 0;
+	left: 32%;
+	width: 5%;
 }
 
 img.control_next {
 	right: 32%;
 	border-radius: 2px 0 0 2px;
-	
-    width: 5%;
+
+	width: 5%;
 }
 
 .slider_option {
@@ -137,8 +145,7 @@ img.control_next {
 	font-size: 18px;
 }
 #slider ul li img {
-    width: 51%;
-   
-    margin: 41% 0 0;
-}
+	width: 51%;
 
+	margin: 41% 0 0;
+}

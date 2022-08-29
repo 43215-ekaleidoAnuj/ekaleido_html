@@ -243,50 +243,50 @@
                         </div>
                     </div>
                     <div class="left2 hut_mid">
-                        <div class="home_icon icon_up icon_lt">
+                        <div class="home_icon icon_up icon_lt" onclick="tabHouse(1)">
                             <img src="../assets/images/bb.png" alt="bb" />
                         </div>
-                        <div class="home_icon icon_up">
+                        <div class="home_icon icon_up" onclick="tabHouse(2)">
                             <img src="../assets/images/dabur.png" alt="dabur" />
                         </div>
-                        <div class="home_icon icon_dn icon_lt">
+                        <div class="home_icon icon_dn icon_lt"  onclick="tabHouse(3)">
                             <img src="../assets/images/ambuja.png" alt="ambuja" />
                         </div>
-                        <div class="home_icon icon_dn icon_rt">
+                        <div class="home_icon icon_dn icon_rt" onclick="tabHouse(4)">
                             <img src="../assets/images/bodyshop.png" alt="bodshop" />
                         </div>
                     </div>
                     <div class="center hut_lg">
                         <div class="creative_wrapper">
                             <p class="creative_name">Brand Name</p>
-                            <div class="creative"></div>
+                            <div class="creative" id="brandName"> </div>
                         </div>
                     </div>
                     <div class="right2 hut_mid">
-                        <div class="home_icon icon_up icon_lt">
+                        <div class="home_icon icon_up icon_lt" onclick="tabHouse(5)">
                             <img src="../assets/images/bb.png" alt="bb" />
                         </div>
-                        <div class="home_icon icon_up icon_rt">
+                        <div class="home_icon icon_up icon_rt" onclick="tabHouse(6)">
                             <img src="../assets/images/dabur.png" alt="dabur" />
                         </div>
-                        <div class="home_icon icon_dn icon_lt">
+                        <div class="home_icon icon_dn icon_lt" onclick="tabHouse(7)">
                             <img src="../assets/images/ambuja.png" alt="ambuja" />
                         </div>
-                        <div class="home_icon icon_dn icon_rt">
+                        <div class="home_icon icon_dn icon_rt" onclick="tabHouse(8)">
                             <img src="../assets/images/bodyshop.png" alt="bodshop" />
                         </div>
                     </div>
                     <div class="right1 hut_sm">
-                        <div class="home_icon icon_up icon_lt">
+                        <div class="home_icon icon_up icon_lt" >
                             <img src="../assets/images/bb.png" alt="bb" />
                         </div>
-                        <div class="home_icon icon_up icon_rt">
+                        <div class="home_icon icon_up icon_rt" >
                             <img src="../assets/images/dabur.png" alt="dabur" />
                         </div>
                         <div class="home_icon icon_dn icon_lt">
                             <img src="../assets/images/ambuja.png" alt="ambuja" />
                         </div>
-                        <div class="home_icon icon_dn icon_rt">
+                        <div class="home_icon icon_dn icon_rt" >
                             <img src="../assets/images/bodyshop.png" alt="bodshop" />
                         </div>
                     </div>
@@ -333,21 +333,21 @@
     </section>
     <section class="atlantic">
         <div class="dark_atlantic_top"></div>
+        <form id="sendEmail">
         <div class="atlantic_div">
-            <div class="form1">
-                <img src="./assets/images/sendus .png" alt="">
-                <input type="text" class="mt" placeholder="Your name">
-                <input type="email" placeholder="Your email">
+                <div class="form1">
+                    <img src="./assets/images/sendus .png" alt="">
+                    <input name="from_name" type="text" class="mt" placeholder="Your name" required>
+                    <input name="from_email" type="email" placeholder="Your email" required>
+                </div>
+                <div class="form2">
+                    <img src="./assets/images/amail.png" alt="">
+                    <input name="subject" type="text" class="mt" placeholder="Subject" required>
+                    <textarea name="from_message" id="" placeholder="Your message"></textarea>
+                    <input type="submit" class="sub-btn" value="SUBMIT">
+                </div>
             </div>
-            <div class="form2">
-                <img src="./assets/images/amail.png" alt="">
-                <input type="text" class="mt" placeholder="Subject">
-                <textarea name="" id="" placeholder="Your message"></textarea>
-
-
-                <input type="submit" class="sub-btn" value="SUBMIT">
-            </div>
-        </div>
+        </form>
         <div class="dark_atlantic_bottom">
         </div>
     </section>
@@ -355,6 +355,15 @@
     <script>
         AOS.init();
     </script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+
+<script type="text/javascript">
+    (function(){
+       emailjs.init("N6P1Hwi1M93-WJDzf");
+    })();
+ </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
@@ -376,6 +385,9 @@
     <script src="./js/carousel.js"></script>
     <script src="./js/client.js"></script>
     <script src="./js/lamp_fish.js"></script>
+    <script src="./js/mail.js"></script>
+    <script src="./js/tabHouse.js"></script>
+    
 </body>
 
 </html>

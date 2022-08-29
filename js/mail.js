@@ -1,35 +1,3 @@
-// const sendEmail = (e) => {
-//     e.preventDefault();
-//     emailjs
-//         .sendForm(
-//             "service_uyjwp6i",
-//             // "template_8gl7g2l",
-//             "template_3630dni",
-//             form.current,
-//             "N6P1Hwi1M93-WJDzf"
-//         )
-//         .then(
-//             (result) => {
-//                 if (result.text) {
-//                     console.log(
-//                         "Thanks for reaching out, we'll be connecting with you shortly!!!"
-//                     );
-               
-//                     form.current.reset();
-//                 }
-//             },
-//             (error) => {
-//                 if (error) {
-//                     console.log("Error! Unable to send the mail.");
-                 
-//                     form.current.reset();
-//                 }
-//             }
-//         );
-// };
-
-
-
 $('#sendEmail').on('submit', function(event) {
     event.preventDefault(); // prevent reload
     

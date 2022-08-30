@@ -77,7 +77,7 @@ blackhole_tween.add(
 
 blackhole_tween.add(
 	TweenLite.to("#img_vector", 0.1, {
-		css: {scale: 3, rotation: 360, opacity: 0.1},
+		css: {scale: 3, rotation: 360, opacity: 0},
 	})
 );
 

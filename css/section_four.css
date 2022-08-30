@@ -1,6 +1,6 @@
 .fourth_section {
 	color: white;
-	min-height: 580vh;
+	min-height: 540vh;
 	background-image: linear-gradient(
 			181deg,
 			black 3%,
@@ -25,12 +25,18 @@
 
 .content_image_div {
 	width: 100%;
-	height: fit-content;
+	height: 100vh;
 	display: flex;
 	justify-content: center;
 }
 .left_content_div {
 	width: 35%;
+}
+
+.right_content_div {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .left_content_div img {
@@ -48,7 +54,7 @@
 
 .meteoroid_img {
 	position: absolute;
-	right: 0;
+	right: -380px;
 	top: 0;
 	width: 25%;
 }

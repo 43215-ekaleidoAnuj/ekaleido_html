@@ -7,7 +7,7 @@ const meteorPath = {
 	autoRotate: true,
 	values: [
 		{x: 0, y: 0},
-		{x: -700, y: 200},
+		{x: -1000, y: 210},
 	],
 };
 const socialPath = {
@@ -16,7 +16,6 @@ const socialPath = {
 	values: [
 		{x: 0, y: 0},
 		{x: 900, y: 0},
-		{x: 700, y: 0},
 	],
 };
 const advertisePath = {
@@ -24,8 +23,7 @@ const advertisePath = {
 	autoRotate: true,
 	values: [
 		{x: 0, y: 0},
-		{x: -1000, y: 0},
-		{x: -900, y: 0},
+		{x: -800, y: 0},
 	],
 };
 
@@ -54,7 +52,7 @@ tween_advert.add(
 var controller = new ScrollMagic.Controller();
 var ourScene = new ScrollMagic.Scene({
 	triggerElement: ".div_meteoroid",
-	duration: "1500",
+	duration: "800",
 	triggerHook: 0,
 })
 	.setTween(tween_social)
@@ -73,7 +71,7 @@ var ourScene = new ScrollMagic.Scene({
 var controller = new ScrollMagic.Controller();
 var ourScene = new ScrollMagic.Scene({
 	triggerElement: ".div_meteoroid",
-	duration: "1000",
+	duration: "800",
 	triggerHook: 0,
 })
 	.setTween(tween_advert)

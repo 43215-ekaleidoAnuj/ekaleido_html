@@ -68,29 +68,3 @@ $(document).ready(function () {
 
 // --------------------------------------------------------------- //
 
-const blackhole_tween = new TimelineLite();
-blackhole_tween.add(
-	TweenLite.from("#img_vector", 0.1, {
-		css: {scale: 0.01, rotation: 360, opacity: 1},
-	})
-);
-
-blackhole_tween.add(
-	TweenLite.to("#img_vector", 0.1, {
-		css: {scale: 3, rotation: 360, opacity: 0},
-	})
-);
-
-$(document).ready(function () {
-	var controller = new ScrollMagic.Controller();
-	var ourScene = new ScrollMagic.Scene({
-		triggerElement: ".third_sec",
-		duration: 2000,
-		triggerHook: 0,
-	})
-		.setTween(blackhole_tween)
-		.setPin(".third_sec")
-		.addTo(controller);
-});
-
-// --------------------------------------------------------------- //

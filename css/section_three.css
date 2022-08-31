@@ -32,12 +32,17 @@
 	width: 100%;
 }
 
+#text_4 {
+	display: none;
+}
+
 .hole_text {
+	left: 50%;
 	font-size: 2rem;
 	font-weight: 700;
-	font-family: "GothamBoldItalic";
 	position: absolute;
-	left: 50%;
+	transform: translateX(-50%);
+	font-family: "GothamBoldItalic";
 }
 
 .tum_stars {

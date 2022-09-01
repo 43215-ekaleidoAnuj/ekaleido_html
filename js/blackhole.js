@@ -72,7 +72,6 @@ $(document).ready(function () {
 		triggerHook: 0.25,
 	})
 		.setTween(text2_tween)
-		.addIndicators()
 		.addTo(controller);
 });
 
@@ -99,7 +98,6 @@ $(document).ready(function () {
 		triggerHook: 0.5,
 	})
 		.setTween(text3_tween)
-		.addIndicators()
 		.addTo(controller);
 });
 

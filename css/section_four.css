@@ -253,12 +253,14 @@
 	font-family: "GothamBookItalic";
 	font-style: italic;
 	font-weight: bold;
+	text-align: center;
 }
 
 .ul_rocket li {
 	padding-bottom: 31px;
 	position: relative;
 	padding-left: 68px;
+	    display: inline-block;
 }
 
 .ul_rocket li::after {

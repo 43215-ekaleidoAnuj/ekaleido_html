@@ -1,0 +1,13 @@
+
+
+@media (max-width:1500px) {
+    .lamp_fish {
+        left: -51%;
+        width: 30%;
+    }
+
+
+    .engage, .connect, .interact{
+        font-size: 8rem;
+    }
+}

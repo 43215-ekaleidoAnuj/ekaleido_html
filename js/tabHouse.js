@@ -1,3 +1,5 @@
 const tabHouse = (val)=>{
-    document.getElementById("brandName").style.background = "red"
+
+   
+    document.getElementById("brandName").src= `./assets/gifs/${val}.gif`
 } 

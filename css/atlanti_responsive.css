@@ -1,0 +1,106 @@
+@media (max-width:1500px) {
+    .form2 {
+        width: 26%;
+    }
+
+    .form1 {
+        width: 26%;
+    }
+
+    .form1 img{
+        width: 114%;
+    }
+}
+
+
+@media (max-width:1170px) {
+    .form2 {
+        width: 33%;
+    }
+    .form1 {
+        width: 33%;
+    }
+}
+
+
+@media (max-width:1000px) {
+    .atlantic_div{
+        display: inline-block;
+    }
+
+
+    .form1 {
+        width: 100%;
+    }
+
+    .form2 {
+        width: 100%;
+    }
+
+
+    .form1 img {
+      display: none;
+    }
+
+
+    .form2 img {
+        display: none;
+      }
+
+
+      .sendus_mail {
+        position: absolute;
+        top: 26%;
+        left: 0;
+        right: 0;
+        margin: auto;
+        text-align: center;
+        
+        
+        }
+
+
+        .atlantic_div {
+            bottom: 7%;
+        }
+
+
+
+        .atlantic {
+           
+            min-height: 100vh;}
+
+
+            input.sub-btn {
+                margin: 50px auto;
+                width: 100%;
+            }
+
+            .atlantic_div textarea{
+              
+                width: 93%;
+
+            }
+
+
+            .atlantic_div input {
+                width: 93%;
+            }
+            
+
+        
+}
+
+
+@media (max-width:800px) {
+    .sendus_mail img {
+        width: 30%;
+    }
+}
+
+
+@media (max-width:430px) {
+    .sendus_mail img {
+        width: 42%;
+    }
+}

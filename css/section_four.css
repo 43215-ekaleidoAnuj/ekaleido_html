@@ -52,6 +52,10 @@
 	overflow: hidden;
 }
 
+
+.div_meteoroid_two{
+	display: none;
+}
 .meteoroid_img {
 	position: absolute;
 	right: -380px;
@@ -73,7 +77,9 @@
 	flex-direction: column;
 	justify-content: flex-end;
 }
-
+.rocket_two{
+	display: none;
+}
 .innovative {
 	top: 50%;
 	position: absolute;

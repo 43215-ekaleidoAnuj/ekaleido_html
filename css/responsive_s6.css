@@ -1,0 +1,149 @@
+@media (max-width:1500px) {
+    img.control_next {
+        right: 26%;
+    }
+
+    img.control_prev {
+        
+        left: 26%;
+    }
+}
+
+
+
+@media (max-width:1000px) {
+    .six_main{
+        display: none;
+    }
+
+
+    .six_main_two{
+        display: block;
+    }
+
+
+
+       
+ img.tenticles1_two {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.tenticles2_two{
+    position: absolute;
+    bottom: 0;
+    width: 100%;}
+    
+    
+    
+    
+    #slider {
+        position: absolute;
+        width: 63%;
+        left: 13%;
+        right: 0;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    
+    
+    .filter{
+    
+    position: absolute;
+        left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    }
+
+
+
+    img.control_prev {
+        left: 12%;
+            width: 10%;
+    }
+
+
+    img.control_next {
+        right: 12%;
+        width: 10%; 
+    }
+}
+
+
+
+@media (max-width:790px) {
+    #slider {
+      
+        left: -2%;
+    }
+}
+
+
+
+@media (max-width:600px) {
+    #slider {
+      
+         
+        width: 79%;
+    }
+    img.control_next {
+        right: 15%;
+    }
+
+}
+
+
+@media (max-width:500px) {
+    #slider ul li img {
+        width: 33%;
+        margin: 41% 0 0;
+    }
+    
+    
+    #slider {
+        width: 101%;
+        top: 71px;
+    }
+}
+
+
+@media (max-width:450px) {
+    #slider {
+        left: -18%;
+    }
+
+    .tenticles2_two {
+        
+        height: 25%;
+    }
+
+
+    .tenticles1_two {
+        
+        height: 25%;
+    }
+
+
+    .filter {
+        width: 69%;
+    }    
+}
+
+@media (max-width:400px) {
+    #slider ul li img {
+        width: 25%;
+    }     
+    
+    img.control_prev, img.control_next {
+       
+        top: 39%;
+    }
+
+    img.control_next {
+        right: 6%;
+    }
+}

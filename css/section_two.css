@@ -16,6 +16,7 @@
 	color: white;
 	
 	
+	
 	width: 100%;
 	
    text-align: center;
@@ -138,4 +139,9 @@
 
 .about_uS{
 	width: 22%;
+}
+
+
+section.second_sec_two{
+	display: none;
 }

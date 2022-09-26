@@ -10,3 +10,196 @@
     }
     
 }
+
+
+
+@media (max-width:1400px) {
+    .mobile img {
+        width: 82%;
+    }
+
+
+    .mobile{
+        top: 31%;
+
+    }
+
+
+    .front_cloud {
+     width: 30%;
+      
+        top: 53%;
+    }
+
+
+
+.angel {
+ 
+    width: 40%;
+
+}
+
+
+}
+
+
+
+
+@media (max-width:1000px) {
+    .front_cloud {
+        width: 29%;
+        left: 3%;
+      
+    }
+
+    .mobile img {
+        width: 65%;
+    }
+   
+
+    .mobile {
+        top: 43%;
+    }
+
+    .front_cloud img{
+         width: 100%;
+         
+    }
+
+
+    .angel {
+        width: 47%;
+            top: 52%
+    }
+    
+    
+    
+    .angel img{
+    
+      width: 100%
+    }
+
+
+    img.arc_cut_logo {
+        width: 58%;
+    }
+
+    .btm_cloud {
+        bottom: -37%;
+    }
+
+
+    .btm_cloud img{
+       width: 107%;
+    }
+
+  
+}
+
+
+
+@media (max-width:852px) {
+    .landing_page {
+      
+        height: 100vh;
+    }
+
+    .btm_cloud {
+        bottom: -13%;
+    }
+    .front_cloud {
+        
+        top: 22%;}
+
+}
+
+
+
+@media (max-width:750px) {
+
+    .mobile {
+        left: -8%;
+    }
+
+    
+    
+}
+
+
+
+@media (max-width:566px) {
+    .mobile {
+        left: -14%;
+    }
+
+    .arc_cut_image{
+        object-fit: fill;
+        width: 101%;
+        height: 100%;
+    }
+    
+    
+    
+    
+    .arc_cut {
+    
+        height: 55%;
+        width: 41%;
+      
+    }
+    
+    
+    .front_cloud {
+        top: 18%;
+    }
+}
+
+
+
+@media (max-width:450px) {
+    .front_cloud {
+        top: 11%;
+        width: 42%;
+    }
+    
+    
+    
+    .arc_cut {
+        height: 43%;
+       
+    }
+    
+    
+    .landing_page {
+        height: 79vh;
+    }
+    
+    
+    
+    .btm_cloud {
+        bottom: 14%;
+    }
+    
+    
+    .mobile img {
+        width: 60%;
+    }
+    
+    
+    .angel {
+        width: 55%;
+        top: 34%;
+        left: 31%;
+    }
+    
+    
+    .mobile {
+        left: -16%;
+            top: 31%;
+    }
+
+    .angel img {
+        width: 137%;
+    }
+
+}

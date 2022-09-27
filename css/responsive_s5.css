@@ -52,7 +52,15 @@
     }
 }
 
+@media (max-width:1150px) {
+    .programmatic {
+        left: -68%;
+    }
 
+    .buying {
+        right: -44%;
+    }
+}
 
 
 @media (max-width:1000px) {
@@ -106,12 +114,32 @@
 @media (max-width:1000px) {
 
 
-    
+
+  .mid_plane_two{
+    margin-top: -201px;
+    display: block;
+  }
+    .our_clients {
+        
+        margin-bottom: 20rem;}
     
     .top_plane{
         display: none;
     }
-    
+
+
+    .buttons {
+       
+        position: absolute;
+    bottom: 30%;
+    left: 50%;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    }
+    main{
+        position: relative;
+    }
     
     .top_plane_two {
         min-height: 84vh;
@@ -195,16 +223,13 @@
 
     height: 100vh;
  position: relative;
- width: 62%;
+ width: 100%;
  display: flex;
  align-items: center;
  justify-content: center;
 
 }
 
-.creative {
-    height: 26rem;
-}
 .hut_lg {
 
  position: absolute;
@@ -213,10 +238,38 @@
 }
 
 
-.creative {
-    height: 25rem;
+
+.carousel {
+    width: inherit;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0!important;
 }
+
+
+.carousel .slides {
    
+    height: 100%;
+}
+
+.carousel .controls{
+    opacity: 1;
+}
+.land {
+    z-index: 0;
+}
+
+
+.creative_wrapper {
+   position:absolute;
+    top: 35%;
+}
+
+
+.mid_plane{
+    display: none
+};
+
 }
 
 
@@ -233,8 +286,52 @@
 .plane_buy_two {
    
     font-size: 45px;}   
+
+
+    .carousel {
+      
+        height: 70%;
+    }
+
+
+    .creative_wrapper {
+        top: 52%;
+    }
 }
 
+
+@media (max-width:650px) {
+    .hut_lg {
+       
+        width: 69%;
+    }
+
+
+    .carousel {
+        height: 81%;
+    }
+
+    .creative_wrapper {
+        top: 40%;
+    }
+}
+
+
+@media (max-width:550px) {
+    .hut_lg {
+        width: 86%;
+    }
+
+    .land {
+      
+        width: 109%;
+    }
+
+    .waves {
+       
+        width: 200%;
+    }    
+}
 
 
 @media (max-width:500px) {
@@ -250,6 +347,12 @@
     top: 191px;
     
     left: 46%;
+}
+
+
+#carousel {
+   
+    width: 100%;
 }
 
 

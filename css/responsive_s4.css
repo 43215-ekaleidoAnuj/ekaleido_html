@@ -328,7 +328,7 @@ padding: 0 15rem;
     font-weight: bold;
     text-align: center;
     position: absolute;
-    bottom: 135px;
+    bottom: 0px;
 
 }
 
@@ -404,7 +404,8 @@ h6.buying_two {
 }
 
 .fourth_section {
-    min-height: 288vh;
+    min-height: 361vh;
+
 }
 
 

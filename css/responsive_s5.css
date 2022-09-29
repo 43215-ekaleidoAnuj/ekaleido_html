@@ -70,7 +70,43 @@
         bottom: 15rem;
         width: 50%;
     }
+   
 
+    .building{
+
+        display: none;
+    }
+
+
+    .building_two {
+       
+        min-height: 156vh;
+        position: relative;
+       
+    }
+
+
+    .building_image_two {
+        position: absolute;
+        left: 0;
+        right: 0;
+        height: 63vh;
+        bottom: 0;
+    }
+
+
+    .bird_two {
+        position: absolute;
+        top: 31%;
+        left: 69%;
+    }
+    
+    
+    
+    .bird2_two {
+        position: absolute;
+        top: 25%;
+    }
 
     .plane_pro {
      
@@ -106,6 +142,17 @@
   top: 68%;
 }
 
+
+.cloud_plane_section_1 {
+    top: 52%;
+    width: 60%;
+    left: -28%;
+}
+
+
+.cloud_plane_section_1 img{
+    width: 100%;
+}
 
 }
 
@@ -172,7 +219,7 @@
         text-align: center;
         font-size: 75px;
        
-    top: -31%;
+         top: -31%;
 
         margin: 0;
         font-family: GothamBoldItalic;
@@ -257,6 +304,9 @@
 }
 .land {
     z-index: 0;
+  
+        height: 47%;
+
 }
 
 
@@ -314,6 +364,16 @@
     .creative_wrapper {
         top: 40%;
     }
+
+
+    .bird_two img {
+        width: 72%;
+    }
+
+
+    .bird2_two img {
+        width: 72%;
+    }
 }
 
 
@@ -369,6 +429,13 @@
     position: absolute;
     top: 99px;
     right: 9%;
+}
+
+
+.cloud_plane_section_1 {
+    top: 55%;
+    width: 81%;
+  
 }
 
 }

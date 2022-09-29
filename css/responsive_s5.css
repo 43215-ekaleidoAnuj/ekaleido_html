@@ -60,7 +60,7 @@
     .buying {
         right: -44%;
     }
-}
+
 
 
 @media (max-width:1000px) {
@@ -80,7 +80,7 @@
 
     .building_two {
        
-        min-height: 156vh;
+        min-height: 146vh;
         position: relative;
        
     }

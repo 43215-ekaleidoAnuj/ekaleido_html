@@ -428,7 +428,8 @@ h6.buying_two {
     color: transparent;
     margin: 4rem 0 6rem 0;
     justify-content: center;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: 2px;
+
     -webkit-text-stroke-color: white;
 }
 

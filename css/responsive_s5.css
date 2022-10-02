@@ -82,7 +82,7 @@
        
         min-height: 136vh;
         position: relative;
-       
+       display: block;
     }
 
 

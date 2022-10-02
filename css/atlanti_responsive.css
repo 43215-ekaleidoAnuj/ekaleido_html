@@ -108,6 +108,20 @@
 
 @media (max-width:400px) {
     .atlantic_div {
-        bottom: -1%;
+       position: static;
+       margin-top: 135px;
+    }
+
+
+   #sendEmail {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .atlantic{
+        display: flex;
+        align-items: center;
     }
 }

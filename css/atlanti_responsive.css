@@ -109,7 +109,9 @@
 @media (max-width:400px) {
     .atlantic_div {
        position: static;
-       margin-top: 135px;
+
+       margin-top: 73%;
+
     }
 
 

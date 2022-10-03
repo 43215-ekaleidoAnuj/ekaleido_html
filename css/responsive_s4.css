@@ -95,6 +95,9 @@
     font-size: 19px;
 
 }
+.fourth_section{
+  margin-top: -54px;
+}
 }
 
 
@@ -144,9 +147,8 @@
         right: -30%;
     }
 
-    .fourth_section {
-        min-height: 488vh;
-    }
+   
+    
     .head_programatic h6 {
         font-size: 52px;
     }

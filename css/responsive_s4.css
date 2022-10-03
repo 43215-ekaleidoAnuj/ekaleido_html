@@ -125,15 +125,20 @@
 
     }
     
-}
-
-
-@media (max-width:1375px) {
     .rocket_img {
         left: -1%;
         bottom: 29%;
         
     }
+
+    .btm_cloud img {
+        width: 100%; 
+        height: 100%;   
+    }
+}
+
+
+@media (max-width:1375px) {
 
     .buying {
         right: -30%;

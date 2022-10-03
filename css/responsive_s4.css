@@ -110,19 +110,38 @@
     .programmatic {
         left: -46%;
     }  
+
+    .fourth_section{
+
+        margin: -26px 0 0 0;
+    
+    }
+
+    .meteoroid_img {
+       
+        top: 51px;
+
+        right: -42%;
+
+    }
+    
 }
 
 
 @media (max-width:1375px) {
     .rocket_img {
-        left: -14%;
-       
+        left: -1%;
+        bottom: 29%;
+        
     }
 
     .buying {
         right: -30%;
     }
 
+    .fourth_section {
+        min-height: 488vh;
+    }
     .head_programatic h6 {
         font-size: 52px;
     }

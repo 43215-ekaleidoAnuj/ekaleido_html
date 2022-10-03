@@ -81,8 +81,10 @@
     .building_two {
        
         min-height: 136vh;
-        position: relative;
+        position: absolute;
        display: block;
+       bottom: 0%;
+       width: 100%;
     }
 
 
@@ -269,12 +271,17 @@
 .house_min{
 
     height: 100vh;
- position: relative;
+
  width: 100%;
  display: flex;
  align-items: center;
  justify-content: center;
 
+
+ 
+ position: absolute;
+
+ bottom: 0;
 }
 
 .hut_lg {
@@ -305,7 +312,12 @@
 .land {
     z-index: 0;
   
-        height: 47%;
+        height: 29%;
+        bottom: -6%;
+
+
+        
+        
 
 }
 

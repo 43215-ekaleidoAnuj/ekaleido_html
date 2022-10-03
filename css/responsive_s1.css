@@ -15,7 +15,7 @@
 
 
 
-@media (max-width:1400px) {
+@media (max-width:1500px) {
     .mobile img {
         width: 82%;
     }
@@ -42,9 +42,13 @@
 }
 
 .btm_cloud {
-    bottom: -15%;
+    bottom: 63%;
 }
+.btm_cloud img {
 
+    width: 100%;
+    height: 100%;
+}
 
 
 

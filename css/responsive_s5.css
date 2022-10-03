@@ -375,6 +375,8 @@
 
     .creative_wrapper {
         top: 40%;
+
+        z-index: 0;
     }
 
 

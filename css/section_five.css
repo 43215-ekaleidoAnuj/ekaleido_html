@@ -363,8 +363,7 @@
 	position: absolute;
 	object-fit: inherit;
 	bottom: -50%;
-	height: revert;
-	height: 95%;
+	height: revert;    height: 100%;
 }
 
 .client_item {

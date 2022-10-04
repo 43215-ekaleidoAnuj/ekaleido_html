@@ -1,14 +1,9 @@
 @media (max-width:1600px) {
-    .fourth_section {
-     
-        min-height: 415vh;
-    }
-
+ 
     .rocket_img {
-        left: -8%;
-        bottom: 11%;
-}
-
+        left: 0%;
+        bottom: 9%;
+    }
 
 .programmatic {
    
@@ -34,7 +29,22 @@
     
 }
 .fourth_section {
-    min-height: 546vh;
+    min-height: 596vh;
+}
+.ul_rocket {
+  
+    
+    position: absolute;
+    bottom: 0px;
+
+
+}
+
+.text_programatic {
+   
+    font-size: 24px;
+   
+    position: absolute;  top: 44%;
 }
 
 }
@@ -42,9 +52,30 @@
 
 
 @media (max-width:1500px) {
-    .font_advertising {
-        top: 47%;
+    .font_social {
+        top: 12%;
+        left: -34%;
     }
+    
+
+.font_advertising {
+    top: 57%;
+}
+
+.sm_text {
+   
+    bottom: 1rem;
+    }
+
+
+
+.meteoroid_img {
+   
+    width: 20%;
+    
+    }
+    
+    
 
 
     .font_social {
@@ -63,12 +94,7 @@
     left: -41%;
 }
 
-.text_programatic {
-   
-    font-size: 24px;
-   
-    position: absolute;  top: 35%;
-}
+
 
 .head_programatic {
     top: 17%;
@@ -82,14 +108,7 @@
 
 
 
-.ul_rocket {
-  
-    
-    position: absolute;
-    bottom: 162px;
 
-
-}
 .ul_rocket ul{
 
     font-size: 19px;
@@ -101,18 +120,40 @@
 }
 
 
+
+
+
+
+
 @media (max-width:1450px) {
-    .buying {
+  
+    .font_social, .font_advertising {
        
-        right: -26%;
+        font-size: 62px;
+
+
     }
+
+
+    .meteoroid_img {
+        top: 7px;
+        right: -34%;
+    }
+
+
+    .programmatic {
+        left: -42%;
+    }  
+
+    .buying {
+        right: -25%;
+    }
+
 }
 
 
 @media (max-width:1420px) {
-    .programmatic {
-        left: -46%;
-    }  
+    
 
     .fourth_section{
 
@@ -120,13 +161,17 @@
     
     }
 
-    .meteoroid_img {
-       
-        top: 51px;
-
-        right: -42%;
-
+    .head_programatic h6 {
+        font-size: 51px;
     }
+
+
+    .rocket_img {
+        left: -1%;
+        bottom: 8%;
+    
+
+  
     
     .rocket_img {
         left: -1%;
@@ -139,20 +184,8 @@
         height: 100%;   
     }
 }
-
-
-@media (max-width:1475px) {
-
-    .buying {
-        right: -30%;
-    }
-
-   
-    
-    .head_programatic h6 {
-        font-size: 52px;
-    }
 }
+
 
  @media (max-width:1340px) {
    

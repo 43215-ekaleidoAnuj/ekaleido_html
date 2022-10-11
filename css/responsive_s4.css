@@ -171,7 +171,7 @@
         bottom: 8%;
     
 
-  
+    }
     
     .rocket_img {
         left: -1%;
@@ -184,10 +184,24 @@
         height: 100%;   
     }
 }
+
+
+@media (max-width:1370px) {
+    .buying {
+        right: -29%;
+    }
+
+    .programmatic {
+        left: -45%;
+    }
+
+    .rocket_img {
+        left: -8%;
+        bottom: 4%;
+    }
 }
 
-
- @media (max-width:1340px) {
+@media (max-width:1340px) {
    
 
     .rocket_img {
@@ -211,7 +225,11 @@
 }
 
 } 
-
+@media (max-width:1320px) {
+    .programmatic {
+        left: -49%;
+    }  
+}
 @media (max-width:1300px) {
     
     .programmatic {
@@ -220,12 +238,16 @@
 }
 
 
+@media (max-width:1270px) {
+    .buying {
+        right: -32%;
+    }    
 
-@media (max-width:1220px) {
     .programmatic {
-        left: -55%;
-    }
-}
+        left: -54%;
+    }    
+}    
+
 
 
 @media (max-width:1240px) {
@@ -234,9 +256,25 @@
     }
 }
 
+@media (max-width:1220px) {
+    .programmatic {
+        left: -55%;
+    }
+
+    .ul_rocket {
+        
+        bottom: -128px;
+    }
+}
+
+
+
 @media (max-width:1200px) {
   
-
+    .rocket_img {
+   
+        bottom: 1%;
+    }
 
 .meteoroid_img {
     position: absolute;

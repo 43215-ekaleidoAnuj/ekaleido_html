@@ -34,7 +34,7 @@ text_tween.add(
 
 text_tween.add(
 	TweenLite.to("#text_1", 0.1, {
-		css: {scale: 1, opacity: 0},
+		css: {scale: 1, opacity: 1},
 	})
 );
 
@@ -42,7 +42,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".third_sec",
-		duration: 1000,
+		duration: 2000,
 		triggerHook: 0,
 	})
 		.setTween(text_tween)
@@ -102,3 +102,27 @@ $(document).ready(function () {
 });
 
 // -------------------------------------------------------------- //
+
+const text4_tween = new TimelineLite();
+text4_tween.add(
+	TweenLite.from("#text_4", 0.1, {
+		css: {scale: 0, opacity: 1},
+	})
+);
+
+text4_tween.add(
+	TweenLite.to("#text_4", 0.1, {
+		css: {scale: 3, opacity: 0},
+	})
+);
+
+$(document).ready(function () {
+	var controller = new ScrollMagic.Controller();
+	var ourScene = new ScrollMagic.Scene({
+		triggerElement: ".third_sec",
+		duration: 500,
+		triggerHook: 0.75,
+	})
+		.setTween(text4_tween)
+		.addTo(controller);
+});

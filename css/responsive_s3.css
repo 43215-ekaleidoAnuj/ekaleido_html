@@ -42,6 +42,12 @@
 	}
 }
 
+@media (max-width: 450px) {
+	p#text_1 {
+		font-size: 0.9rem;
+	}
+}
+
 @media (max-width: 400px) {
 	.star_div_down img {
 		width: 36%;

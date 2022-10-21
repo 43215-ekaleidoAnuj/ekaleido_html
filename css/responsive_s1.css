@@ -125,6 +125,10 @@
 		width: 42%;
 	}
 
+	.btm_cloud {
+		bottom: 6%;
+	}
+
 	.arc_cut {
 		height: 43%;
 	}
@@ -134,7 +138,7 @@
 	}
 
 	.btm_cloud {
-		bottom: -4%;
+		bottom: 3%;
 	}
 
 	.mobile img {

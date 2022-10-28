@@ -160,3 +160,9 @@
 		width: 137%;
 	}
 }
+
+@media (max-height: 789px) {
+	.btm_cloud {
+		bottom: -53%;
+	}
+}

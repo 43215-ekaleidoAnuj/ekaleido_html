@@ -39,6 +39,12 @@
 	}
 }
 
+@media (max-width: 1200px) {
+	.btm_cloud {
+		bottom: -27%;
+	}
+}
+
 @media (max-width: 1000px) {
 	.front_cloud {
 		width: 29%;

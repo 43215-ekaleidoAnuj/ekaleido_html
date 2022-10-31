@@ -1,3 +1,30 @@
+@media (max-width: 1700px) {
+	.meteoroid_img {
+		top: 13px;
+		width: 18%;
+	}
+
+	.font_social,
+	.font_advertising {
+		font-size: 64px;
+	}
+
+	.font_advertising {
+		top: 49%;
+	}
+
+	.font_social {
+		top: 16%;
+	}
+
+	.head_programatic {
+		top: 28%;
+	}
+
+	.head_programatic h6 {
+		font-size: 60px;
+	}
+}
 @media (max-width: 1600px) {
 	.rocket_img {
 		left: 0%;
@@ -81,7 +108,11 @@
 		margin-top: -54px;
 	}
 }
-
+@media (max-width: 1470px) {
+	.land {
+		width: 104%;
+	}
+}
 @media (max-width: 1450px) {
 	.font_social,
 	.font_advertising {
@@ -175,6 +206,19 @@
 	.programmatic {
 		left: -54%;
 	}
+
+	.meteoroid_img {
+		width: 23%;
+		right: -39%;
+		top: 57px;
+	}
+
+	.text_programatic {
+		top: 39%;
+	}
+	.ul_rocket {
+		bottom: 62px;
+	}
 }
 
 @media (max-width: 1240px) {
@@ -187,15 +231,11 @@
 	.programmatic {
 		left: -55%;
 	}
-
-	.ul_rocket {
-		bottom: -128px;
-	}
 }
 
 @media (max-width: 1200px) {
 	.rocket_img {
-		bottom: 1%;
+		bottom: 16%;
 	}
 
 	.meteoroid_img {
@@ -471,8 +511,6 @@
 		font-size: 25px;
 		margin: auto;
 	}
-
-
 }
 @media (max-width: 500px) {
 	.right_content_div p {

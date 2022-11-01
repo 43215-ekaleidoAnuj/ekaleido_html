@@ -1,210 +1,179 @@
+@media (max-width: 1000px) {
+	.second_sec {
+		display: none;
+	}
 
+	section.second_sec_two {
+		display: block;
+	}
 
+	.second_sec_two {
+		background-image: url("../../assets/images/ufo_bg.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 160vh;
+		position: relative;
+		z-index: -1;
+		overflow: hidden;
+	}
 
+	.about_us_two {
+		position: absolute;
+		top: 35%;
+		color: white;
 
-@media (max-width:1000px) {
-    .second_sec{
-            display: none;
+		width: 100%;
 
-    }
+		text-align: center;
+	}
 
+	.black_overlay_two {
+		height: 100%;
+		width: 100%;
+		display: block;
+		z-index: 10;
+		position: relative;
+		background-image: linear-gradient(
+			0deg,
+			black 5%,
+			transparent,
+			transparent 90%
+		);
+	}
 
+	.light_ray_two {
+		width: 100%;
+		height: 100vh;
+		left: 0;
+		top: 24%;
+		position: absolute;
+	}
 
+	.ufo_two {
+		left: 50%;
+		top: 0%;
+		width: 550px;
+		height: 300px;
+		position: absolute;
+		margin-left: -275px;
 
-section.second_sec_two{
-	display: block;
+		display: flex;
+		justify-content: center;
+	}
+
+	.ufo_image_two {
+		position: relative;
+		z-index: 7;
+		width: 78%;
+	}
+
+	.rays_two {
+		width: 250%;
+		overflow: hidden;
+		height: 200vh;
+		position: absolute;
+	}
+
+	.ray1_two,
+	.ray2_two {
+		display: block;
+		left: 50%;
+		height: 0;
+		z-index: 5;
+
+		position: absolute;
+		transform: translate(-50%, 100px);
+		border-bottom: 2000px solid rgba(255, 255, 255, 0.2);
+	}
+
+	.ray1_two {
+		border-left: 55vw solid transparent;
+		border-right: 55vw solid transparent;
+		width: 0vw;
+	}
+
+	.ray2_two {
+		width: 0vw;
+		border-left: 48vw solid transparent;
+		border-right: 48vw solid transparent;
+	}
+
+	.ufo_scrollM_two {
+		top: 10%;
+	}
+
+	.p_abouttext_two p {
+		margin-bottom: 15px;
+		font-size: 30px;
+	}
+
+	.p_abouttext_two {
+		position: relative;
+		margin-top: 130px;
+		font-family: GothamBoldItalic;
+	}
+
+	.p_abouttext_two::after {
+		position: absolute;
+		left: 0px;
+		right: 0;
+		margin: 0 auto;
+		top: -65px;
+		width: 17%;
+		height: 3%;
+		background: white;
+		content: "";
+	}
+
+	.staR_about_two {
+		position: absolute;
+		top: 37%;
+		width: 5%;
+		left: 11%;
+		height: 6%;
+	}
+
+	.staR2_about_two {
+		position: absolute;
+		top: 15%;
+		width: 5%;
+		right: 11%;
+		height: 6%;
+	}
+
+	.about_uS_two {
+		width: 22%;
+	}
 }
 
-
-    .second_sec_two {
-        background-image: url("../../assets/images/ufo_bg.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 100%;
-        height: 160vh;
-        position: relative;
-        z-index: -1;
-        overflow: hidden;
-    }
-    
-    .about_us_two{
-        position: absolute;
-        top: 35%;
-        color: white;
-        
-        
-        
-        width: 100%;
-        
-       text-align: center;
-    }
-    
-    .black_overlay_two {
-        height: 100%;
-        width: 100%;
-        display: block;
-        z-index: 10;
-        position: relative;
-        background-image: linear-gradient(
-            0deg,
-            black 5%,
-            transparent,
-            transparent 90%
-        );
-    }
-    
-    .light_ray_two {
-        width: 100%;
-        height: 100vh;
-        left: 0;
-        top: 24%;
-        position: absolute;
-    }
-    
-    .ufo_two {
-        left: 50%;
-        top: 0%;
-        width: 550px;
-        height: 300px;
-        position: absolute;
-        margin-left: -275px;
-    
-        display: flex;
-        justify-content: center;
-    }
-    
-    .ufo_image_two {
-        position: relative;
-        z-index: 7;
-        width: 78%;
-    }
-    
-    .rays_two {
-        width: 250%;
-        overflow: hidden;
-        height: 200vh;
-        position: absolute;
-    }
-    
-    .ray1_two,
-    .ray2_two {
-        display: block;
-        left: 50%;
-        height: 0;
-        z-index: 5;
-    
-        position: absolute;
-        transform: translate(-50%, 100px);
-        border-bottom: 2000px solid rgba(255, 255, 255, 0.2);
-    }
-    
-    .ray1_two {
-        border-left: 55vw solid transparent;
-        border-right: 55vw solid transparent;
-        width: 0vw;
-    }
-    
-    .ray2_two {
-        width: 0vw;
-        border-left: 48vw solid transparent;
-        border-right: 48vw solid transparent;
-    }
-    
-    .ufo_scrollM_two {
-        top: 10%;
-    }
-    
-    .p_abouttext_two p {
-        margin-bottom: 15px;
-        font-size: 30px;
-    }
-    
-    .p_abouttext_two {
-        position: relative;
-        margin-top: 130px;
-        font-family: "GothamBookItalic";
-    }
-    
-    .p_abouttext_two::after {
-        position: absolute;
-        left: 0px;
-        right: 0;
-       margin: 0 auto;
-        top: -65px;
-        width:17%;
-        height: 3%;
-        background: white;
-        content: "";
-    }
-    
-    .staR_about_two {
-        position: absolute;
-        top: 37%;
-        width: 5%;
-        left: 11%;
-        height: 6%;
-    }
-    
-    .staR2_about_two {
-        position: absolute;
-        top: 15%;
-        width: 5%;
-        right: 11%;
-        height: 6%;
-    }
-    
-    
-    
-    .about_uS_two{
-        width: 22%;
-    }
+@media (max-width: 688px) {
+	.ufo_image_two {
+		top: 40%;
+	}
 }
 
+@media (max-width: 480px) {
+	.ufo_image_two {
+		width: 55%;
+		height: 59%;
+		top: 6%;
+	}
 
+	.about_us_two {
+		top: 20%;
+	}
 
-@media (max-width:688px) {
+	.about_uS_two {
+		width: 56%;
+	}
 
-    .ufo_image_two {
+	.p_abouttext_two p {
+		font-size: 19px;
+	}
 
-        top: 40%;
-    }
-}
-
-
-
-@media (max-width:480px) {
-    .ufo_image_two {
-        width: 55%;
-        height: 59%;
-        top: 6%;
-      
-      }  
-      
-      
-      .about_us_two {
-       
-        top: 20%;
-        }
-      
-      
-      
-      
-      .about_uS_two {
-        width: 56%;
-    }
-      
-      
-      
-      .p_abouttext_two p {
-    
-        font-size: 19px;
-        }
-
-
-        .ray1_two {
-           
-            width: 18vw;
-        }        
-      
+	.ray1_two {
+		width: 18vw;
+	}
 }

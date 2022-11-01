@@ -100,6 +100,10 @@
 	.filter {
 		width: 69%;
 	}
+
+	.carousel_phone {
+		width: 100%;
+	}
 }
 
 @media (max-width: 400px) {
@@ -130,5 +134,4 @@
 	#slider ul li img {
 		margin-right: 29px;
 	}
-
 }

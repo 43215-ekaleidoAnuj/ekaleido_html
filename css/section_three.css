@@ -38,7 +38,8 @@
 	font-weight: 700;
 	position: absolute;
 	transform: translateX(-50%);
-	font-family: "GothamBoldItalic";
+	/* font-family: "GothamBoldItalic"; */
+	font-family: GothamBoldItalic;
 }
 
 p#text_1 {

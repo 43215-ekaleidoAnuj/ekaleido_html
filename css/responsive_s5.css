@@ -34,8 +34,6 @@
 	#slider ul li img {
 		width: 37%;
 	}
-
-	
 }
 
 @media (max-width: 1250px) {
@@ -385,5 +383,11 @@
 	.cloud_plane_section_1 {
 		top: 55%;
 		width: 81%;
+	}
+}
+
+@media (max-width: 380px) and (max-height: 680px) {
+	.para_plane_two {
+		bottom: -44px;
 	}
 }

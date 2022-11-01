@@ -616,16 +616,5 @@
 		font-size: 36px;
 	}
 
-	.carousel_phone {
-		width: 100%;
-	}
 
-	img.control_prev,
-	img.control_next {
-		top: 53%;
-	}
-
-	#slider ul li img {
-		margin-right: 29px;
-	}
 }

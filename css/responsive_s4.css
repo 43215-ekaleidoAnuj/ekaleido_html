@@ -614,7 +614,20 @@
 		-webkit-text-stroke-color: none;
 	}
 }
+@media (max-width: 1550px) and (max-height: 633px) {
+	.meteoroid_img {
+		top: -28px;
+	}
 
+	.fourth_section {
+		min-height: 643vh;
+	}
+
+	.ul_rocket {
+		position: absolute;
+		bottom: -62px;
+	}
+}
 @media (max-width: 380px) and (max-height: 680px) {
 	.btm_cloud {
 		bottom: 3%;

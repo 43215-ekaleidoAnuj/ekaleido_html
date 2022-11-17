@@ -178,8 +178,3 @@
 	}
 }
 
-@media (max-width: 1536px) and (max-height: 816px) {
-	.btm_cloud {
-		bottom: -54%;
-	}
-}

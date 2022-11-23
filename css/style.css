@@ -7,12 +7,11 @@
 	font-family: "GothamBoldItalic";
 	src: local("GothamBoldItalic"),
 		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
-/* }
+}
 @font-face {
 	font-family: "GothamBookItalic";
-	src: local("GothamBookItalic"),
-		url(../assets/Gotham-Font/GothamBookItalic.ttf);
-} */
+	src: local("GothamBookItalic"), url(../assets/Gotham-Font/Avenir.ttc);
+}
 /* ANIMATION CSS */
 
 .shooting_stars {
@@ -85,7 +84,6 @@
 	}
 }
 
-
 .floating {
 	animation-name: floating;
 	animation-duration: 3s;
@@ -133,5 +131,3 @@
 		opacity: 0.8;
 	}
 }
-
-

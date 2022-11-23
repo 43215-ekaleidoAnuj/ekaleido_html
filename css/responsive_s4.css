@@ -48,9 +48,8 @@
 	.head_programatic {
 		top: 26%;
 	}
-
 	.head_programatic h6 {
-		font-size: 70px;
+		font-size: 64px;
 	}
 	.fourth_section {
 		min-height: 596vh;
@@ -614,6 +613,45 @@
 		-webkit-text-stroke-color: none;
 	}
 }
+
+@media (max-height: 730px) {
+	.font_advertising {
+		right: -30%;
+	}
+
+	.sm_text p {
+		font-size: 30px;
+	}
+
+	.head_programatic {
+		top: 2%;
+	}
+
+	.ul_rocket ul {
+		font-size: 24px;
+	}
+
+	.text_programatic {
+		top: 24%;
+	}
+	.land {
+		height: 110%;
+	}
+	.programmatic {
+		left: -36%;
+	}
+
+	.buying {
+		right: -21%;
+	}
+	.sm_text {
+		bottom: 5rem;
+	}
+	.font_social {
+		left: -29%;
+	}
+}
+
 @media (max-width: 1550px) and (max-height: 633px) {
 	.meteoroid_img {
 		top: -28px;

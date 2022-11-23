@@ -177,8 +177,14 @@
 		bottom: -54%;
 	}
 }
-@media (max-width: 1550px) and (max-height: 633px) {
+
+@media (max-height: 670px) {
 	.btm_cloud {
 		bottom: -88%;
+	}
+
+	.meteoroid_img {
+		top: -49px;
+		width: 18%;
 	}
 }

@@ -243,8 +243,7 @@
 	cursor: pointer;
 }
 
-
-.home_icon:hover{
+.home_icon:hover {
 	transform: scale(1.05);
 }
 .home_icon img {
@@ -363,7 +362,9 @@
 	position: absolute;
 	object-fit: inherit;
 	bottom: -50%;
-	height: revert;    height: 100%;
+	height: revert;
+	height: 100%;
+	pointer-events: none;
 }
 
 .client_item {
@@ -389,22 +390,17 @@
 	}
 }
 
-
-.top_plane_two{
+.top_plane_two {
 	display: none;
 }
 
-
-.six_main_two{
+.six_main_two {
 	display: none;
 }
-
 
 .house_min {
-    display: none;
+	display: none;
 }
-
-
 
 .carousel {
 	width: 80vw;
@@ -412,13 +408,11 @@
 	border-radius: 3px;
 	overflow: hidden;
 	position: relative;
-	
-	
-  }
-  .carousel:hover .controls {
+}
+.carousel:hover .controls {
 	opacity: 1;
-  }
-  .carousel .controls {
+}
+.carousel .controls {
 	opacity: 0;
 	display: flex;
 	position: absolute;
@@ -428,8 +422,8 @@
 	width: 100%;
 	z-index: 99999;
 	transition: all ease 0.5s;
-  }
-  .carousel .controls .control {
+}
+.carousel .controls .control {
 	margin: 0 5px;
 	display: flex;
 	align-items: center;
@@ -441,11 +435,11 @@
 	opacity: 0.5;
 	transition: ease 0.3s;
 	cursor: pointer;
-  }
-  .carousel .controls .control:hover {
+}
+.carousel .controls .control:hover {
 	opacity: 1;
-  }
-  .carousel .slides {
+}
+.carousel .slides {
 	position: absolute;
 	top: 50%;
 	left: 0;
@@ -453,138 +447,127 @@
 	display: flex;
 	width: 100%;
 	transition: 1s ease-in-out all;
-  }
-  .carousel .slides .slide {
+}
+.carousel .slides .slide {
 	min-width: 100%;
 	min-height: 250px;
 	height: auto;
-  }
+}
 
+/*  */
 
-
-  /*  */
-
-
-  #carousel {
+#carousel {
 	position: relative;
 	height: 544px;
 	top: 50%;
 	transform: translateY(-50%);
 	overflow: hidden;
 	width: 82%;
-    margin: auto;
-  }
+	margin: auto;
+}
 
-  #carousel div {
+#carousel div {
 	position: absolute;
 	transition: transform 400ms, left 400ms, opacity 400ms, z-index 0s;
 	opacity: 1;
-  }
-  #carousel div img {
+}
+#carousel div img {
 	width: 400px;
 	transition: width 400ms;
 	-webkit-user-drag: none;
-  }
-  #carousel div.hideLeft {
+}
+#carousel div.hideLeft {
 	left: 0%;
 	opacity: 0;
 	transform: translateY(50%) translateX(-50%);
-  }
-  #carousel div.hideLeft img {
+}
+#carousel div.hideLeft img {
 	width: 200px;
-  }
-  #carousel div.hideRight {
+}
+#carousel div.hideRight {
 	left: 100%;
 	opacity: 0;
 	transform: translateY(50%) translateX(-50%);
-  }
-  #carousel div.hideRight img {
+}
+#carousel div.hideRight img {
 	width: 200px;
-  }
-  #carousel div.prev {
+}
+#carousel div.prev {
 	z-index: 5;
 	left: 30%;
 	transform: translateY(50px) translateX(-50%);
-  }
-  #carousel img:hover {
+}
+#carousel img:hover {
 	cursor: ;
-  }
-  #carousel div.prev img {
+}
+#carousel div.prev img {
 	width: 300px;
-  }
-  #carousel div.prevLeftSecond {
+}
+#carousel div.prevLeftSecond {
 	z-index: 4;
 	left: 15%;
 	transform: translateY(50%) translateX(-50%);
 	opacity: 0.7;
-  }
-  #carousel div.prevLeftSecond img {
+}
+#carousel div.prevLeftSecond img {
 	width: 200px;
-  }
-  #carousel div.selected {
+}
+#carousel div.selected {
 	z-index: 10;
 	left: 50%;
 	transform: translateY(0px) translateX(-50%);
-  }
-  #carousel div.next {
+}
+#carousel div.next {
 	z-index: 5;
 	left: 70%;
 	transform: translateY(50px) translateX(-50%);
-  }
-  #carousel div.next img {
+}
+#carousel div.next img {
 	width: 300px;
-  }
-  #carousel div.nextRightSecond {
+}
+#carousel div.nextRightSecond {
 	z-index: 4;
 	left: 85%;
 	transform: translateY(50%) translateX(-50%);
 	opacity: 0.7;
-  }
-  #carousel div.nextRightSecond img {
+}
+#carousel div.nextRightSecond img {
 	width: 200px;
-  }
-  
-  .buttons {
+}
+
+.buttons {
 	position: fixed;
 	left: 50%;
 	transform: translateX(-50%);
 	bottom: 10px;
-  }
-  
-
-
-.buttons  #prev {
-	margin: 0 5px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
-    opacity: 0.5;
-    transition: ease 0.3s;
-    cursor: pointer; 
 }
 
-.buttons  #next {
+.buttons #prev {
 	margin: 0 5px;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.7);
-    opacity: 0.5;
-    transition: ease 0.3s;
-    cursor: pointer; 
-
-	
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.7);
+	opacity: 0.5;
+	transition: ease 0.3s;
+	cursor: pointer;
 }
 
-
-
-
+.buttons #next {
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.7);
+	opacity: 0.5;
+	transition: ease 0.3s;
+	cursor: pointer;
+}
 
 .mid_plane_two {
-    display: none;
+	display: none;
 }
 
-.building_two{
-display: none;	
+.building_two {
+	display: none;
 }

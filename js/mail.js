@@ -34,6 +34,7 @@ function sendmail(event) {
 	dataForm = {
 		form_name: name,
 		from_email: mail,
+		from_subject: subject,
 		from_message: mesaage,
 	};
 

@@ -116,6 +116,9 @@
 	.text_programatic {
 		top: 36%;
 	}
+	.sm_text p {
+		font-size: 30px;
+	}
 }
 @media (max-width: 1470px) {
 	.land {

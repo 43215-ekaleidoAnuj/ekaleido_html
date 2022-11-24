@@ -114,6 +114,10 @@
 	.fourth_section {
 		margin-top: -54px;
 	}
+
+	.text_programatic {
+		top: 36%;
+	}
 }
 @media (max-width: 1470px) {
 	.land {

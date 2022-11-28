@@ -63,10 +63,9 @@
 }
 
 .rocket_img {
-	left: 0%;
-	bottom: 12%;
-
-	width: 20%;
+	left: 3%;
+	bottom: 19%;
+	width: 17%;
 	position: absolute;
 }
 
@@ -201,7 +200,7 @@
 }
 
 .head_programatic {
-	top: 24%;
+	top: 21%;
 	width: 100%;
 	display: flex;
 	position: absolute;
@@ -244,6 +243,7 @@
 	font-family: "Avenir";
 	line-height: 52px;
 	position: absolute;
+	bottom: 32%;
 }
 
 .ul_rocket {
@@ -253,6 +253,8 @@
 	font-size: 25px;
 	align-items: center;
 	justify-content: center;
+	position: absolute;
+	bottom: 18%;
 }
 
 .ul_rocket ul {

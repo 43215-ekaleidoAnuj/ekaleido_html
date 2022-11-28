@@ -35,11 +35,10 @@
 
 .dark_atlantic_top,
 .dark_atlantic_bottom {
-	min-height: 30vh;
+	min-height: 36vh;
 	position: absolute;
 	width: 100%;
 	z-index: 5;
-	top: 0;
 }
 
 .dark_atlantic_top {
@@ -50,30 +49,27 @@
 	background-image: linear-gradient(0deg, black, transparent);
 	bottom: 0;
 }
-.engage , .connect ,.interact{
-	background:linear-gradient(to right,#1d9b4c,#22344b,#000);
- 	-webkit-background-clip:text;
-
+.engage,
+.connect,
+.interact {
+	background: linear-gradient(to right, #1d9b4c, #22344b, #000);
+	-webkit-background-clip: text;
 
 	-webkit-text-fill-color: transparent;
 
-	
 	/* -webkit-animation:ani 6s linear infinite; */
 
-    font-size: 11rem;
+	font-size: 11rem;
 	font-family: "GothamBoldItalic";
-
-  
 }
-.connect{
-	font-size:9rem;
-	background:linear-gradient(to right,#1d9b4c,#22344b,#000);
-	-webkit-background-clip:text;
-
+.connect {
+	font-size: 9rem;
+	background: linear-gradient(to right, #1d9b4c, #22344b, #000);
+	-webkit-background-clip: text;
 }
 
-.interact{
-	font-size:9rem;
+.interact {
+	font-size: 9rem;
 }
 /* @keyframes ani{
 	from{background-position:-280px -94px;}

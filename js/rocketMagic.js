@@ -20,7 +20,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1000,
+		duration: 200,
 		triggerHook: 0,
 	})
 		.setTween(rocket_tween)
@@ -51,7 +51,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1000,
+		duration: 800,
 		triggerHook: 0.5,
 	})
 		.setTween(prog_tween)
@@ -82,7 +82,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1000,
+		duration: 800,
 		triggerHook: 0.5,
 	})
 		.setTween(buy_tween)
@@ -103,10 +103,11 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 2000,
-		triggerHook: 0.2,
+		duration: 500,
+		triggerHook: 0,
 	})
 		.setTween(para_tween)
+		.setPin(".rocket")
 		.addTo(controller);
 });
 
@@ -120,9 +121,10 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 4000,
+		duration: 2000,
 		triggerHook: 0,
 	})
 		.setTween(list_tween)
+
 		.addTo(controller);
 });

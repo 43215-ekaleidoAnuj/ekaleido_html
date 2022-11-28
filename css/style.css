@@ -8,9 +8,14 @@
 	src: local("GothamBoldItalic"),
 		url(../assets/Gotham-Font/GothamBoldItalic.ttf);
 }
-@font-face {
+/* @font-face {
 	font-family: "GothamBookItalic";
 	src: local("GothamBookItalic"), url(../assets/Gotham-Font/Avenir.ttc);
+} */
+
+@font-face {
+	font-family: "Avenir";
+	src: local("Avenir"), url(../assets/Gotham-Font/Avenir.ttc);
 }
 /* ANIMATION CSS */
 

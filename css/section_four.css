@@ -131,11 +131,9 @@
 
 .right_content_div p {
 	font-size: 28px;
-	line-height: 2rem;
-	font-weight: bold;
-	font-style: italic;
+	line-height: 52px;
+	font-family: "Avenir";
 	margin-top: 19px;
-	font-family: "GothamBookItalic";
 }
 
 .font_social,
@@ -160,6 +158,7 @@
 .font_advertising {
 	top: 40%;
 	right: -20%;
+	color: white;
 }
 
 .Advertising {
@@ -191,9 +190,10 @@
 
 .sm_text p {
 	margin: 15px 0;
-	font-family: "GothamBookItalic";
-	font-size: 2.5rem;
-	font-style: italic;
+	font-family: "Avenir";
+	font-size: 28px;
+	line-height: 52px;
+
 	color: transparent;
 	-webkit-text-fill-color: transparent;
 	-webkit-background-clip: text;
@@ -229,6 +229,7 @@
 .buying {
 	position: absolute;
 	right: -14%;
+	color: white;
 }
 
 .para_programatic {
@@ -238,10 +239,11 @@
 .text_programatic {
 	width: 100vw;
 	color: #fff;
-	font-size: 30px;
+	font-size: 28px;
 	text-align: center;
-	font-style: italic;
-	font-family: "GothamBookItalic";
+	font-family: "Avenir";
+	line-height: 52px;
+	position: absolute;
 }
 
 .ul_rocket {
@@ -256,10 +258,10 @@
 .ul_rocket ul {
 	padding: 0 15rem;
 	list-style: none;
-	font-family: "GothamBookItalic";
-	font-style: italic;
-	font-weight: bold;
+	font-family: "Avenir";
+	font-size: 28px;
 	text-align: center;
+	line-height: 52px;
 }
 
 .ul_rocket li {

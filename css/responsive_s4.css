@@ -619,6 +619,9 @@
 		-webkit-text-stroke-width: inherit;
 		-webkit-text-stroke-color: none;
 	}
+	.right_content_div p {
+		line-height: 37px;
+	}
 }
 
 @media (max-height: 730px) {

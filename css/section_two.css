@@ -14,12 +14,10 @@
 	position: absolute;
 	top: 35%;
 	color: white;
-	
-	
-	
+
 	width: 100%;
-	
-   text-align: center;
+
+	text-align: center;
 }
 
 .black_overlay {
@@ -36,6 +34,9 @@
 	);
 }
 
+.p_abouttext_two {
+	font-family: "Avenir";
+}
 .light_ray {
 	width: 100%;
 	height: 100vh;
@@ -111,9 +112,9 @@
 	position: absolute;
 	left: 0px;
 	right: 0;
-   margin: 0 auto;
+	margin: 0 auto;
 	top: -65px;
-	width:17%;
+	width: 17%;
 	height: 3%;
 	background: white;
 	content: "";
@@ -135,13 +136,10 @@
 	height: 6%;
 }
 
-
-
-.about_uS{
+.about_uS {
 	width: 22%;
 }
 
-
-section.second_sec_two{
+section.second_sec_two {
 	display: none;
 }

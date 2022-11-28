@@ -93,17 +93,17 @@ $(document).ready(function () {
 
 const para_tween = new TimelineLite();
 para_tween.add(
-	TweenLite.from(".text_programatic", 1, {css: {scale: 0, opacity: 0}})
+	TweenLite.from(".text_programatic", 1, {css: {scale: 1, opacity: 1}})
 );
 para_tween.add(
-	TweenLite.to(".text_programatic", 1, {css: {scale: 1, opacity: 1}})
+	TweenLite.to(".text_programatic", 1, {css: {scale: 0, opacity: 0}})
 );
 
 $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1000,
+		duration: 2000,
 		triggerHook: 0.2,
 	})
 		.setTween(para_tween)
@@ -120,7 +120,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".rocket",
-		duration: 1000,
+		duration: 4000,
 		triggerHook: 0,
 	})
 		.setTween(list_tween)

@@ -99,7 +99,11 @@
 	}
 
 	.head_programatic {
-		top: 17%;
+		top: 11%;
+	}
+
+	.ul_rocket {
+		bottom: 19%;
 	}
 
 	.head_programatic h6 {
@@ -638,7 +642,7 @@
 	}
 
 	.ul_rocket ul {
-		font-size: 24px;
+		font-size: 19px;
 	}
 
 	.text_programatic {

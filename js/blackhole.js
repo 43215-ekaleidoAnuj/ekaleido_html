@@ -15,7 +15,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".third_sec",
-		duration: 2000,
+		duration: 1000,
 		triggerHook: 0,
 	})
 		.setTween(blackhole_tween)
@@ -42,7 +42,7 @@ $(document).ready(function () {
 	var controller = new ScrollMagic.Controller();
 	var ourScene = new ScrollMagic.Scene({
 		triggerElement: ".third_sec",
-		duration: 2000,
+		duration: 5000,
 		triggerHook: 0,
 	})
 		.setTween(text_tween)

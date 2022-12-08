@@ -40,6 +40,10 @@
 	.right_content_div p {
 		font-size: 19px;
 	}
+
+	.hole_text {
+		bottom: -96px;
+	}
 }
 
 @media (max-width: 450px) {
